@@ -857,8 +857,6 @@ def build_caption(item: Item, post: dict, limit: int = 1024) -> str:
         extra = []
         if item.video:
             extra.append(f'🎥 <a href="{html.escape(item.video, quote=True)}">Смотреть видео</a>')
-        if item.link():
-            extra.append(f'🔗 Источник: <a href="{html.escape(item.link(), quote=True)}">{html.escape(item.source)}</a>')
         if extra:
             parts += [""] + extra
         tail = " ".join(tags)
@@ -902,10 +900,7 @@ def send_post(item: Item, caption: str) -> dict:
             return tg("sendPhoto", {**base, "caption": caption, "photo": abs_url(item.image)})
         except TgError as exc:
             log(f"  фото по ссылке не ушло ({exc}), отправляю текстом")
-    data = {**base, "text": caption}
-    if item.link():
-        data["link_preview_options"] = {"url": item.link(), "prefer_large_media": True, "show_above_text": True}
-    return tg("sendMessage", data)
+    return tg("sendMessage", {**base, "text": caption, "link_preview_options": {"is_disabled": True}})
 
 
 def share_to_chat(channel_message_id: int, state: dict) -> None:
