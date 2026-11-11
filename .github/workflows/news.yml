@@ -23,6 +23,7 @@ on:
 
 permissions:
   contents: write             # чтобы сохранять state.json (что уже опубликовано)
+  models: read                # запасной бесплатный ИИ GitHub Models (без отдельного ключа)
 
 concurrency:
   group: news-bot
@@ -46,6 +47,7 @@ jobs:
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CHANNEL: ${{ vars.CHANNEL }}
           CHAT: ${{ vars.CHAT }}
           NEWS_PER_RUN: ${{ vars.NEWS_PER_RUN }}

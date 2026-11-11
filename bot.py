@@ -77,6 +77,10 @@ GEMINI_MODELS = [m.strip() for m in env(
     "GEMINI_MODELS",
     "gemini-3.6-flash,gemini-flash-latest,gemini-3.8-flash,gemini-flash-lite-latest,gemini-3.5-flash-lite",
 ).split(",") if m.strip()]
+# Запасной бесплатный ИИ: GitHub Models. В GitHub Actions ключ не нужен (встроенный GITHUB_TOKEN).
+GITHUB_TOKEN = env("GITHUB_TOKEN")
+GH_MODELS = [m.strip() for m in env(
+    "GH_MODELS", "openai/gpt-4.1-mini,openai/gpt-4o-mini,openai/gpt-4.1-nano").split(",") if m.strip()]
 NEWS_PER_RUN = int(env("NEWS_PER_RUN", "3"))
 SLOTS = [s.strip() for s in env("SLOTS", "08:00,14:00,20:00").split(",") if s.strip()]
 PIN_ENABLED = env("PIN_ENABLED", "1") == "1"
@@ -522,6 +526,13 @@ class AIError(Exception):
 
 
 _working_model: str | None = None
+_provider = ""
+
+
+def _parse_json(text: str) -> dict:
+    text = re.sub(r"^```(?:json)?|```$", "", (text or "").strip()).strip()
+    start, end = text.find("{"), text.rfind("}")
+    return json.loads(text[start:end + 1])
 
 
 def gemini_json(prompt: str, temperature: float = 0.7) -> dict:
@@ -553,16 +564,64 @@ def gemini_json(prompt: str, temperature: float = 0.7) -> dict:
             try:
                 data = response.json()
                 parts = data["candidates"][0]["content"]["parts"]
-                text = "".join(p.get("text", "") for p in parts if not p.get("thought"))
-                text = re.sub(r"^```(?:json)?|```$", "", text.strip()).strip()
-                start, end = text.find("{"), text.rfind("}")
-                result = json.loads(text[start:end + 1])
-                _working_model = model
+                result = _parse_json("".join(p.get("text", "") for p in parts if not p.get("thought")))
+                _working_model = f"Gemini {model}"
                 return result
             except Exception as exc:
                 errors.append(f"{model}: неверный ответ ({type(exc).__name__})")
                 break
     raise AIError("; ".join(errors)[:600])
+
+
+def github_json(prompt: str, temperature: float = 0.7) -> dict:
+    """Запасной ИИ: GitHub Models (бесплатно ~150 запросов в день, в Actions без отдельного ключа)."""
+    global _working_model
+    if not GITHUB_TOKEN:
+        raise AIError("нет GITHUB_TOKEN")
+    errors = []
+    for model in GH_MODELS:
+        for attempt in range(2):
+            try:
+                response = requests.post(
+                    "https://models.github.ai/inference/chat/completions",
+                    headers={"Authorization": f"Bearer {GITHUB_TOKEN}", "Content-Type": "application/json",
+                             "Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28"},
+                    json={"model": model, "temperature": temperature,
+                          "response_format": {"type": "json_object"},
+                          "messages": [{"role": "user", "content": prompt}]},
+                    timeout=120,
+                )
+            except requests.RequestException as exc:
+                errors.append(f"{model}: {type(exc).__name__}")
+                break
+            if response.status_code == 429 and attempt == 0:
+                time.sleep(20)
+                continue
+            if response.status_code != 200:
+                errors.append(f"{model}: HTTP {response.status_code} {response.text[:150]}")
+                break
+            try:
+                result = _parse_json(response.json()["choices"][0]["message"]["content"])
+                _working_model = f"GitHub Models {model}"
+                return result
+            except Exception as exc:
+                errors.append(f"{model}: неверный ответ ({type(exc).__name__})")
+                break
+    raise AIError("; ".join(errors)[:600])
+
+
+def ai_json(prompt: str, temperature: float = 0.7, compact_prompt: str | None = None) -> dict:
+    """Сначала Gemini, при ошибке — GitHub Models. Если оба недоступны — AIError (дальше запасной режим без ИИ)."""
+    errors = []
+    try:
+        return gemini_json(prompt, temperature)
+    except AIError as exc:
+        errors.append(f"Gemini: {exc}")
+    try:
+        return github_json(compact_prompt or prompt, temperature)
+    except AIError as exc:
+        errors.append(f"GitHub Models: {exc}")
+    raise AIError(" | ".join(errors)[:900])
 
 
 SELECT_PROMPT = """You are the chief editor of a Russian-language Telegram news channel about Cambodia (@CambodlaNews).
@@ -609,25 +668,30 @@ Items (JSON):
 """
 
 
-def _candidate_view(item: Item) -> dict:
+def _candidate_view(item: Item, snippet_len: int = 300) -> dict:
     return {
         "id": item.id,
         "source": item.source,
         "time": item.published.strftime("%d.%m %H:%M") if item.published else "",
         "title": item.title,
-        "snippet": shorten(item.snippet or item.body, 300),
+        "snippet": shorten(item.snippet or item.body, snippet_len),
         "has_image": bool(item.image),
         "has_video": bool(item.video),
     }
 
 
 def ai_select(candidates: list[Item], n: int, recent_titles: list[str]) -> tuple[list[Item], Item | None]:
+    recent = "\n".join(f"- {t}" for t in recent_titles[-40:]) or "- (nothing yet)"
     prompt = SELECT_PROMPT.format(
-        n=n,
-        recent="\n".join(f"- {t}" for t in recent_titles[-40:]) or "- (nothing yet)",
+        n=n, recent=recent,
         candidates=json.dumps([_candidate_view(c) for c in candidates], ensure_ascii=False),
     )
-    result = gemini_json(prompt, temperature=0.3)
+    # у GitHub Models лимит ~8000 токенов на запрос — для него список короче
+    compact = SELECT_PROMPT.format(
+        n=n, recent="\n".join(f"- {t}" for t in recent_titles[-15:]) or "- (nothing yet)",
+        candidates=json.dumps([_candidate_view(c, 150) for c in candidates[:35]], ensure_ascii=False),
+    )
+    result = ai_json(prompt, temperature=0.3, compact_prompt=compact)
     by_id = {c.id: c for c in candidates}
     chosen = []
     for raw_id in result.get("selected", []):
@@ -647,9 +711,11 @@ def ai_select(candidates: list[Item], n: int, recent_titles: list[str]) -> tuple
 
 
 def ai_write(items: list[Item]) -> dict[int, dict]:
-    payload = [{"id": it.id, "source": it.source, "title": it.title,
-                "text": shorten(it.body or it.snippet, 2500) or it.title} for it in items]
-    result = gemini_json(WRITE_PROMPT.format(items=json.dumps(payload, ensure_ascii=False)), temperature=0.8)
+    def build(limit: int) -> str:
+        payload = [{"id": it.id, "source": it.source, "title": it.title,
+                    "text": shorten(it.body or it.snippet, limit) or it.title} for it in items]
+        return WRITE_PROMPT.format(items=json.dumps(payload, ensure_ascii=False))
+    result = ai_json(build(2500), temperature=0.8, compact_prompt=build(1500))
     posts = {}
     for post in result.get("posts", []):
         try:
@@ -942,9 +1008,9 @@ def run(args) -> int:
     recent = [r.get("src", "") for r in state["recent"]] + [r.get("ru", "") for r in state["recent"]]
     try:
         chosen, pin_item = ai_select(fresh, count, recent)
-        log(f"Gemini ({_working_model}) отобрал {len(chosen)} новостей")
+        log(f"ИИ ({_working_model}) отобрал {len(chosen)} новостей")
     except AIError as exc:
-        log(f"⚠️ Gemini недоступен ({exc}). Запасной режим без ИИ.")
+        log(f"⚠️ ИИ недоступен ({exc}). Запасной режим без ИИ.")
         chosen, pin_item = fallback_select(fresh, count)
     if not chosen:
         log("Ничего подходящего не нашлось.")
@@ -955,7 +1021,7 @@ def run(args) -> int:
     try:
         written = ai_write(chosen)
     except AIError as exc:
-        log(f"⚠️ Gemini не написал посты ({exc}). Запасной перевод.")
+        log(f"⚠️ ИИ не написал посты ({exc}). Запасной перевод.")
         written = {}
     posts = []
     for item in chosen:
@@ -1021,7 +1087,15 @@ def check() -> int:
         gemini_json('Return JSON {"ok": true}', temperature=0)
         print(f"  ✅ работает, модель {_working_model}")
     except AIError as exc:
-        print(f"  ❌ {exc}  → будет запасной режим (перевод без ИИ)")
+        print(f"  ❌ {exc}")
+
+    print("\nGitHub Models (запасной ИИ):")
+    try:
+        github_json('Return JSON {"ok": true}', temperature=0)
+        print(f"  ✅ работает, {_working_model}")
+    except AIError as exc:
+        hint = "  (на Mac это нормально: работает только в GitHub Actions)" if not GITHUB_TOKEN else ""
+        print(f"  ⚠️ {exc}{hint}")
 
     print("\nTelegram:")
     try:
