@@ -1010,6 +1010,14 @@ def wait_for_slot(max_wait_min: int = 50) -> None:
 
 def run(args) -> int:
     state = load_state()
+    slot_key = None
+    if args.wait_slot:
+        slot = nearest_slot()
+        if slot:
+            slot_key = f"{dt.datetime.now(TZ):%Y-%m-%d} {slot}"
+            if slot_key in state.get("slots_done", []):
+                log(f"Выпуск {slot_key} уже опубликован другим запуском — пропускаю.")
+                return 0
     since = since_time()
     log(f"Собираю новости с {since:%d.%m %H:%M} (время Пномпеня)…")
     items, report = collect(since)
@@ -1088,6 +1096,8 @@ def run(args) -> int:
         except TgError as exc:
             log(f"⚠️ В чат не отправлено: {exc}")
     state["last_run"] = dt.datetime.now(TZ).isoformat(timespec="minutes")
+    if slot_key and sent:
+        state["slots_done"] = (state.get("slots_done", []) + [slot_key])[-30:]
     save_state(state)
     return 1 if failures and not sent else 0
 

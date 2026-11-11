@@ -4,6 +4,8 @@ on:
   schedule:
     # Время в cron — UTC. Пномпень = UTC+7.
     # Запуск за ~15 минут: бот готовит посты и сам ждёт ровно 8:00 / 14:00 / 20:00.
+    # GitHub иногда пропускает такие запуски, поэтому основной будильник — cron-job.org (см. README);
+    # этот остаётся запасным: повторный запуск того же выпуска бот пропустит сам.
     - cron: "45 0 * * *"    # 07:45 → пост в 08:00
     - cron: "45 6 * * *"    # 13:45 → пост в 14:00
     - cron: "45 12 * * *"   # 19:45 → пост в 20:00
@@ -18,6 +20,10 @@ on:
         default: true
       dry_run:
         description: "Только предпросмотр (ничего не отправлять)"
+        type: boolean
+        default: false
+      scheduled:
+        description: "Запуск по расписанию (дождаться 8:00/14:00/20:00) — для cron-job.org"
         type: boolean
         default: false
 
@@ -36,6 +42,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Get latest state
+        run: git pull -q --rebase origin main || true
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -53,7 +62,7 @@ jobs:
           NEWS_PER_RUN: ${{ vars.NEWS_PER_RUN }}
           CHAT_SLOTS: ${{ vars.CHAT_SLOTS }}
         run: |
-          if [ "${{ github.event_name }}" = "schedule" ]; then
+          if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.scheduled }}" = "true" ]; then
             python bot.py --wait-slot
           else
             ARGS="--count ${{ inputs.count || '3' }}"

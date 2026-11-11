@@ -99,6 +99,25 @@ GitHub → Settings → Secrets and variables → Actions → **Variables**:
 Для локального запуска эти же параметры задаются в `.env`. Там же есть `CHAT_ENABLED=0` (не отправлять новости в чат).
 Время выпусков меняется в `.github/workflows/news.yml` (cron в UTC, Пномпень = UTC+7) и в переменной `SLOTS`.
 
+## Точное расписание через cron-job.org (рекомендуется)
+Встроенное расписание GitHub бесплатное, но иногда опаздывает или пропускает запуски. Надёжнее, когда бота
+будит бесплатный сервис **cron-job.org**. Встроенное расписание остаётся запасным: если оба запустят один и тот же
+выпуск, второй запуск бот пропустит сам.
+
+1. **Ключ GitHub.** github.com → Settings → Developer settings → Personal access tokens → **Fine-grained tokens** →
+   Generate new token. Repository access: *Only select repositories* → `cambodia-news-bot`.
+   Permissions → Repository → **Actions: Read and write**. Срок действия — максимальный. Скопируйте ключ `github_pat_…`.
+2. **cron-job.org** → зарегистрируйтесь → *Create cronjob*:
+   - URL: `https://api.github.com/repos/smilishka/cambodia-news-bot/actions/workflows/news.yml/dispatches`
+   - Execution schedule → *Custom*: минуты **50**, часы **7, 13, 19**, все дни; часовой пояс **Asia/Phnom_Penh**.
+   - Вкладка *Advanced*: Request method **POST**; Headers:
+     `Accept: application/vnd.github+json`, `Authorization: Bearer github_pat_…`, `X-GitHub-Api-Version: 2022-11-28`;
+     Request body: `{"ref":"main","inputs":{"scheduled":"true"}}`
+   - Сохранить → *Test run*: ответ **204** — всё работает.
+
+Бот запускается в 7:50, 13:50 и 19:50, готовит посты и публикует ровно в 8:00, 14:00 и 20:00.
+Когда ключ GitHub истечёт, создайте новый и замените его в заголовке Authorization.
+
 ## Если что-то не так
 - **В Actions красный крестик.** GitHub пришлёт письмо. Откройте запуск и посмотрите лог: строки с ❌ и ⚠️ покажут причину.
 - **«Gemini недоступен».** Бот всё равно опубликует новости в запасном режиме, но заголовки будут проще.
