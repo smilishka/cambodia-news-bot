@@ -11,6 +11,7 @@
   .venv/bin/python makeover.py --dry-run     # показать, что изменится, ничего не меняя
   .venv/bin/python makeover.py               # применить
   .venv/bin/python makeover.py --restore     # вернуть тексты постов из резервной копии
+  .venv/bin/python makeover.py --hashtags    # добавить хэштеги к постам, где их нет
 Перед изменениями все исходные тексты сохраняются в makeover_backup.json.
 """
 from __future__ import annotations
@@ -81,6 +82,97 @@ _FALLBACK = [
     (r"Вьетнам", "🇻🇳"), (r"Китай|КНР", "🇨🇳"), (r"Япони", "🇯🇵"), (r"строит|дорог|мост|инфраструкт", "🏗️"),
     (r"Хун Манет|премьер|министр|правительств", "🏛️"),
 ]
+
+
+TAGS_PROMPT = """You add hashtags to posts of a Russian-language Telegram news channel about Cambodia.
+For EACH item give 2-3 Russian hashtags that describe the topic (and the city/province if one is clearly named).
+Prefer this shared vocabulary so tags group well: #криминал #скам #наркотики #ДТП #происшествия #суд #визы
+#законы #экономика #цены #бизнес #недвижимость #туризм #транспорт #авиа #политика #дипломатия #выборы #здоровье
+#образование #экология #погода #культура #Ангкор #общество #безопасность #мины #граница
+#Пномпень #Сиемреап #Сиануквиль #Кампот #Баттамбанг #Пойпет #Таиланд #Вьетнам #Китай #Япония #США #Россия.
+Hashtags: start with #, no spaces inside (use _ if needed), Russian words (city names in Russian).
+Return JSON only: {{"items": [{{"id": <id>, "hashtags": ["#...", "#..."]}}]}}
+
+Items (JSON):
+{items}
+"""
+
+_TAG_FALLBACK = [
+    (r"арест|задерж|облав|полици|убий|огра|краж", "#криминал"), (r"мошен|скам|афер", "#скам"),
+    (r"нарко", "#наркотики"), (r"ДТП|авари", "#ДТП"), (r"виз[аыу]|депорт|иммиграц", "#визы"),
+    (r"цен[аыу]|экономик|экспорт|торгов|инвест|банк|риел", "#экономика"), (r"туризм|турист|Ангкор", "#туризм"),
+    (r"выбор", "#выборы"), (r"министр|премьер|Хун Манет|правительств", "#политика"),
+    (r"больниц|здоров|ВИЧ|медиц", "#здоровье"), (r"эколог|пластик|лес", "#экология"),
+    (r"погод|дожд|паводк|наводн", "#погода"), (r"Пномпен", "#Пномпень"), (r"Сиемреап", "#Сиемреап"),
+    (r"Сиануквил", "#Сиануквиль"), (r"Таиланд", "#Таиланд"),
+]
+
+
+def fallback_tags(text: str) -> list[str]:
+    tags = [tag for pattern, tag in _TAG_FALLBACK if re.search(pattern, text, re.I)]
+    return (list(dict.fromkeys(tags)) or ["#новости"])[:3] + (["#Камбоджа"] if len(tags) < 2 else [])
+
+
+_HAS_TAGS = re.compile(r"(^|\s)#[A-Za-zА-Яа-яЁё_]")
+
+
+def add_tags(text_html: str, tags: list[str]) -> str:
+    line = " ".join(tags)
+    lines = text_html.rstrip().split("\n")
+    if lines and "@CambodlaNews" in lines[-1]:        # хэштеги — перед подписью канала
+        return "\n".join(lines[:-1]).rstrip() + "\n\n" + line + "\n" + lines[-1]
+    return text_html.rstrip() + "\n\n" + line
+
+
+def run_hashtags(dry_run: bool) -> int:
+    bot.log("Читаю все посты канала…")
+    posts = [p for p in load_posts() if p["id"] != INTRO_POST_ID]
+    progress = load_progress()
+    done = set(progress.setdefault("tags_done", []))
+    todo = [p for p in posts if p["id"] not in done and not _HAS_TAGS.search(p["plain"])]
+    bot.log(f"Постов без хэштегов: {len(todo)}")
+    tags: dict[int, list[str]] = {}
+    for start in range(0, len(todo), 40):
+        chunk = todo[start:start + 40]
+        payload = [{"id": p["id"], "text": re.sub(r"\s+", " ", p["plain"])[:300]} for p in chunk]
+        try:
+            data = bot.ai_json(TAGS_PROMPT.format(items=json.dumps(payload, ensure_ascii=False)), temperature=0.2)
+            for item in data.get("items", []):
+                clean = [re.sub(r"\s+", "_", str(t).strip()) for t in item.get("hashtags", [])]
+                clean = [t if t.startswith("#") else f"#{t}" for t in clean if len(t) > 1][:3]
+                if clean:
+                    tags[int(item["id"])] = clean
+            bot.log(f"  хэштеги подобраны для постов {chunk[0]['id']}–{chunk[-1]['id']} ({bot._working_model})")
+        except Exception as exc:
+            bot.log(f"  ИИ недоступен ({str(exc)[:80]}), подбираю по словам")
+        for p in chunk:
+            tags.setdefault(p["id"], fallback_tags(p["plain"]))
+
+    if dry_run:
+        for p in todo[:8]:
+            print(f"пост {p['id']}: {' '.join(tags[p['id']])}  ←  {p['plain'][:70]!r}")
+        bot.log("Это был предпросмотр: ничего не изменено.")
+        return 0
+
+    ok = failed = 0
+    for n, p in enumerate(todo, 1):
+        new_html = add_tags(p["html"], tags[p["id"]])
+        if p["media"] and bot.visible_len(new_html) > 1024:
+            bot.log(f"  пост {p['id']}: подпись станет длиннее 1024 символов — пропускаю")
+            continue
+        status = edit_post(p, new_html)
+        if status in ("ok", "same") or "can't be edited" in status:
+            progress["tags_done"].append(p["id"])
+            save_progress(progress)
+            ok += status != "same" and not status.startswith("error")
+        else:
+            failed += 1
+            bot.log(f"  ⚠️ пост {p['id']}: {status}")
+        if n % 25 == 0:
+            bot.log(f"  … {n}/{len(todo)}")
+        time.sleep(2.5)
+    bot.log(f"Готово: хэштеги добавлены к {ok} постам, ошибок {failed}")
+    return 0
 
 
 def fallback_emoji(text: str) -> str:
@@ -225,7 +317,11 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--restore", action="store_true")
+    parser.add_argument("--hashtags", action="store_true")
     args = parser.parse_args()
+
+    if args.hashtags:
+        return run_hashtags(args.dry_run)
 
     if args.restore:
         saved = json.loads(BACKUP.read_text(encoding="utf-8"))
