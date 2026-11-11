@@ -13,7 +13,7 @@ on:
         description: "Сколько новостей опубликовать"
         default: "3"
       pin:
-        description: "Обновить закреп в чате"
+        description: "Отправить одну новость в чат @Cambodia_Russ"
         type: boolean
         default: true
       dry_run:
@@ -51,7 +51,7 @@ jobs:
           CHANNEL: ${{ vars.CHANNEL }}
           CHAT: ${{ vars.CHAT }}
           NEWS_PER_RUN: ${{ vars.NEWS_PER_RUN }}
-          PIN_SLOTS: ${{ vars.PIN_SLOTS }}
+          CHAT_SLOTS: ${{ vars.CHAT_SLOTS }}
         run: |
           if [ "${{ github.event_name }}" = "schedule" ]; then
             python bot.py --wait-slot

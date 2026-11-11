@@ -83,10 +83,12 @@ GH_MODELS = [m.strip() for m in env(
     "GH_MODELS", "openai/gpt-4.1-mini,openai/gpt-4o-mini,openai/gpt-4.1-nano").split(",") if m.strip()]
 NEWS_PER_RUN = int(env("NEWS_PER_RUN", "3"))
 SLOTS = [s.strip() for s in env("SLOTS", "08:00,14:00,20:00").split(",") if s.strip()]
-PIN_ENABLED = env("PIN_ENABLED", "1") == "1"
-# В какие выпуски по расписанию обновлять закреп в чате (по умолчанию 1 раз в день — утренний)
-PIN_SLOTS = [s.strip() for s in env("PIN_SLOTS", "08:00").split(",") if s.strip()]
-PIN_DELETE_OLD = env("PIN_DELETE_OLD", "1") == "1"  # удалять из чата прошлую закреплённую новость бота
+# Чат: раз в день пересылать туда самую интересную новость.
+CHAT_ENABLED = env("CHAT_ENABLED", env("PIN_ENABLED", "1")) == "1"
+# В какие выпуски по расписанию отправлять новость в чат (по умолчанию 1 раз в день — утренний)
+CHAT_SLOTS = [s.strip() for s in env("CHAT_SLOTS", env("PIN_SLOTS", "08:00")).split(",") if s.strip()]
+CHAT_PIN = env("CHAT_PIN", "0") == "1"              # закреплять новость в чате (нужны права админа)
+PIN_DELETE_OLD = env("PIN_DELETE_OLD", "1") == "1"  # при CHAT_PIN=1: удалять прошлую закреплённую новость бота
 FOOTER = env("FOOTER", "📲 @CambodlaNews")
 STATE_FILE = BASE_DIR / env("STATE_FILE", "state.json")
 
@@ -906,16 +908,18 @@ def send_post(item: Item, caption: str) -> dict:
     return tg("sendMessage", data)
 
 
-def update_pin(channel_message_id: int, state: dict) -> None:
-    """Пересылает новость из канала в чат (с подписью «Переслано из…») и закрепляет её."""
+def share_to_chat(channel_message_id: int, state: dict) -> None:
+    """Пересылает новость из канала в чат (с подписью «Переслано из…»). Закреп — только если CHAT_PIN=1."""
     try:
         new_msg = tg("forwardMessage", {"chat_id": CHAT, "from_chat_id": CHANNEL,
-                                        "message_id": channel_message_id, "disable_notification": True})
+                                        "message_id": channel_message_id})
     except TgError as exc:
         log(f"  переслать не удалось ({exc}), копирую")
-        new_msg = tg("copyMessage", {"chat_id": CHAT, "from_chat_id": CHANNEL,
-                                     "message_id": channel_message_id, "disable_notification": True})
+        new_msg = tg("copyMessage", {"chat_id": CHAT, "from_chat_id": CHANNEL, "message_id": channel_message_id})
     new_id = new_msg["message_id"]
+    log(f"💬 Новость отправлена в {CHAT} (сообщение {new_id})")
+    if not CHAT_PIN:
+        return
     tg("pinChatMessage", {"chat_id": CHAT, "message_id": new_id, "disable_notification": True})
     old_id = state.get("pinned_message_id")
     if old_id and old_id != new_id:
@@ -929,7 +933,7 @@ def update_pin(channel_message_id: int, state: dict) -> None:
             except TgError as exc:
                 log(f"  старый закреп не удалён: {exc}")
     state["pinned_message_id"] = new_id
-    log(f"📌 Закреп в {CHAT} обновлён (сообщение {new_id})")
+    log(f"📌 Закреплено в {CHAT}")
 
 
 # ----------------------------------------------------------------------------------------
@@ -1044,13 +1048,13 @@ def run(args) -> int:
         posts.append((item, post, build_caption(item, post)))
 
     slot = nearest_slot() if args.wait_slot else None
-    pin_now = PIN_ENABLED and not args.no_pin and bool(CHAT) and (slot is None or slot in PIN_SLOTS)
+    pin_now = CHAT_ENABLED and not args.no_pin and bool(CHAT) and (slot is None or slot in CHAT_SLOTS)
 
     if args.dry_run:
         print("\n" + "=" * 70)
         for item, post, caption in posts:
             plain = html.unescape(re.sub(r"<[^>]+>", "", caption))
-            mark = "  📌 (будет закреплена в чате)" if item is pin_item and pin_now else ""
+            mark = f"  💬 (уйдёт в чат {CHAT})" if item is pin_item and pin_now else ""
             print(plain + mark)
             print(f"\n[фото] {item.image or '— нет —'}")
             print(f"[видео] {item.video or '— нет —'}")
@@ -1079,9 +1083,9 @@ def run(args) -> int:
     if sent and pin_now:
         pin_id = sent.get(pin_item.id) if pin_item else None
         try:
-            update_pin(pin_id or next(iter(sent.values())), state)
+            share_to_chat(pin_id or next(iter(sent.values())), state)
         except TgError as exc:
-            log(f"⚠️ Закреп не обновлён: {exc}")
+            log(f"⚠️ В чат не отправлено: {exc}")
     state["last_run"] = dt.datetime.now(TZ).isoformat(timespec="minutes")
     save_state(state)
     return 1 if failures and not sent else 0
@@ -1119,13 +1123,14 @@ def check() -> int:
     try:
         me = tg("getMe")
         print(f"  ✅ бот @{me['username']}")
-        for chat, needs in ((CHANNEL, ("can_post_messages",)),
-                            (CHAT, ("can_pin_messages", "can_delete_messages"))):
+        chat_needs = ("can_pin_messages", "can_delete_messages") if CHAT_PIN else ()
+        for chat, needs in ((CHANNEL, ("can_post_messages",)), (CHAT, chat_needs)):
             try:
                 member = tg("getChatMember", {"chat_id": chat, "user_id": me["id"]})
                 status = member.get("status")
                 rights = ", ".join(f"{r}={'да' if member.get(r) else 'нет'}" for r in needs)
-                ok = status == "administrator" and all(member.get(r) for r in needs)
+                ok = (status in ("administrator", "creator") and all(member.get(r) for r in needs)) or \
+                     (not needs and status in ("member", "administrator", "creator", "restricted"))
                 print(f"  {'✅' if ok else '⚠️'} {chat}: {status}; {rights}")
             except TgError as exc:
                 print(f"  ❌ {chat}: {exc}  → добавьте бота администратором")
@@ -1149,7 +1154,8 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Новостной бот @CambodlaNews")
     parser.add_argument("--dry-run", action="store_true", help="показать посты, ничего не отправлять")
     parser.add_argument("--count", type=int, default=NEWS_PER_RUN, help="сколько новостей опубликовать")
-    parser.add_argument("--no-pin", action="store_true", help="не обновлять закреп в чате")
+    parser.add_argument("--no-pin", "--no-chat", dest="no_pin", action="store_true",
+                        help="не отправлять новость в чат")
     parser.add_argument("--wait-slot", action="store_true", help="дождаться ближайшего времени публикации")
     parser.add_argument("--check", action="store_true", help="проверить источники, Gemini и права бота")
     parser.add_argument("--set-description", action="store_true", help="записать описание канала")
