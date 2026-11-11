@@ -89,7 +89,7 @@ CHAT_ENABLED = env("CHAT_ENABLED", env("PIN_ENABLED", "1")) == "1"
 CHAT_SLOTS = [s.strip() for s in env("CHAT_SLOTS", env("PIN_SLOTS", "08:00")).split(",") if s.strip()]
 CHAT_PIN = env("CHAT_PIN", "0") == "1"              # закреплять новость в чате (нужны права админа)
 PIN_DELETE_OLD = env("PIN_DELETE_OLD", "1") == "1"  # при CHAT_PIN=1: удалять прошлую закреплённую новость бота
-FOOTER = env("FOOTER", "📲 @CambodlaNews")
+FOOTER = env("FOOTER", "")
 STATE_FILE = BASE_DIR / env("STATE_FILE", "state.json")
 
 # Описание канала (био). Лимит Telegram — 255 символов.
