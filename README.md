@@ -15,7 +15,7 @@
 | Запасной режим, если Gemini недоступен | отбор по ключевым словам + Google Translate | бесплатно |
 
 Источники: Telegram-каналы @khmertimesbreakingnews и @thephnompenhpost (через их публичную веб-версию, без
-аккаунта), RSS Khmer Times, CamboJA News, Kiripost, Cambodianess. Список правится в `bot.py` → `SOURCES`.
+аккаунта), RSS Khmer Times и CamboJA News. Список правится в `bot.py` → `SOURCES`.
 
 ---
 

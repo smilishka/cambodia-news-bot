@@ -98,8 +98,6 @@ SOURCES = [
     {"type": "telegram", "name": "Phnom Penh Post", "channel": "thephnompenhpost"},
     {"type": "rss", "name": "Khmer Times", "url": "https://www.khmertimeskh.com/feed/"},
     {"type": "rss", "name": "CamboJA News", "url": "https://cambojanews.com/feed/"},
-    {"type": "rss", "name": "Kiripost", "url": "https://kiripost.com/feed"},
-    {"type": "rss", "name": "Cambodianess", "url": "https://cambodianess.com/rss"},
 ]
 
 MAX_CANDIDATES = 60
