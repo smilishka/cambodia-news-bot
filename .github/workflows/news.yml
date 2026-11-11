@@ -1,0 +1,72 @@
+name: Cambodia News
+
+on:
+  schedule:
+    # Время в cron — UTC. Пномпень = UTC+7.
+    # Запуск за ~15 минут: бот готовит посты и сам ждёт ровно 8:00 / 14:00 / 20:00.
+    - cron: "45 0 * * *"    # 07:45 → пост в 08:00
+    - cron: "45 6 * * *"    # 13:45 → пост в 14:00
+    - cron: "45 12 * * *"   # 19:45 → пост в 20:00
+  workflow_dispatch:          # ручной запуск (кнопка Run workflow или ./run_now.sh)
+    inputs:
+      count:
+        description: "Сколько новостей опубликовать"
+        default: "3"
+      pin:
+        description: "Обновить закреп в чате"
+        type: boolean
+        default: true
+      dry_run:
+        description: "Только предпросмотр (ничего не отправлять)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write             # чтобы сохранять state.json (что уже опубликовано)
+
+concurrency:
+  group: news-bot
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Publish news
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          CHANNEL: ${{ vars.CHANNEL }}
+          CHAT: ${{ vars.CHAT }}
+          NEWS_PER_RUN: ${{ vars.NEWS_PER_RUN }}
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            python bot.py --wait-slot
+          else
+            ARGS="--count ${{ inputs.count || '3' }}"
+            [ "${{ inputs.pin }}" = "false" ] && ARGS="$ARGS --no-pin"
+            [ "${{ inputs.dry_run }}" = "true" ] && ARGS="$ARGS --dry-run"
+            python bot.py $ARGS
+          fi
+
+      - name: Save state
+        if: always()
+        run: |
+          git config user.name "news-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state.json
+          if ! git diff --cached --quiet; then
+            git commit -m "state: $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull --rebase --autostash || true
+            git push
+          fi
