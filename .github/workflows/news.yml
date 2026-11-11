@@ -51,6 +51,7 @@ jobs:
           CHANNEL: ${{ vars.CHANNEL }}
           CHAT: ${{ vars.CHAT }}
           NEWS_PER_RUN: ${{ vars.NEWS_PER_RUN }}
+          PIN_SLOTS: ${{ vars.PIN_SLOTS }}
         run: |
           if [ "${{ github.event_name }}" = "schedule" ]; then
             python bot.py --wait-slot

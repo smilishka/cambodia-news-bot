@@ -84,6 +84,8 @@ GH_MODELS = [m.strip() for m in env(
 NEWS_PER_RUN = int(env("NEWS_PER_RUN", "3"))
 SLOTS = [s.strip() for s in env("SLOTS", "08:00,14:00,20:00").split(",") if s.strip()]
 PIN_ENABLED = env("PIN_ENABLED", "1") == "1"
+# В какие выпуски по расписанию обновлять закреп в чате (по умолчанию 1 раз в день — утренний)
+PIN_SLOTS = [s.strip() for s in env("PIN_SLOTS", "08:00").split(",") if s.strip()]
 PIN_DELETE_OLD = env("PIN_DELETE_OLD", "1") == "1"  # удалять из чата прошлую закреплённую новость бота
 FOOTER = env("FOOTER", "📲 @CambodlaNews")
 STATE_FILE = BASE_DIR / env("STATE_FILE", "state.json")
@@ -556,7 +558,7 @@ def gemini_json(prompt: str, temperature: float = 0.7) -> dict:
                 errors.append(f"{model}: {type(exc).__name__}")
                 break
             if response.status_code == 429 and attempt == 0:
-                time.sleep(30)
+                time.sleep(8)
                 continue
             if response.status_code != 200:
                 errors.append(f"{model}: HTTP {response.status_code} {response.text[:150]}")
@@ -973,6 +975,19 @@ def since_time() -> dt.datetime:
     return (now - dt.timedelta(days=1)).replace(hour=0, minute=0, second=0, microsecond=0)
 
 
+def nearest_slot(max_diff_min: int = 180) -> str | None:
+    """Выпуск, к которому относится текущий запуск (ближайшее время из SLOTS в пределах 3 часов)."""
+    now = dt.datetime.now(TZ)
+    best, best_diff = None, None
+    for slot in SLOTS:
+        hour, minute = map(int, slot.split(":"))
+        target = now.replace(hour=hour, minute=minute, second=0, microsecond=0)
+        diff = abs((target - now).total_seconds()) / 60
+        if diff <= max_diff_min and (best_diff is None or diff < best_diff):
+            best, best_diff = slot, diff
+    return best
+
+
 def wait_for_slot(max_wait_min: int = 50) -> None:
     now = dt.datetime.now(TZ)
     waits = []
@@ -1028,11 +1043,14 @@ def run(args) -> int:
         post = written.get(item.id) or fallback_write(item)
         posts.append((item, post, build_caption(item, post)))
 
+    slot = nearest_slot() if args.wait_slot else None
+    pin_now = PIN_ENABLED and not args.no_pin and bool(CHAT) and (slot is None or slot in PIN_SLOTS)
+
     if args.dry_run:
         print("\n" + "=" * 70)
         for item, post, caption in posts:
             plain = html.unescape(re.sub(r"<[^>]+>", "", caption))
-            mark = "  📌 (будет закреплена в чате)" if item is pin_item else ""
+            mark = "  📌 (будет закреплена в чате)" if item is pin_item and pin_now else ""
             print(plain + mark)
             print(f"\n[фото] {item.image or '— нет —'}")
             print(f"[видео] {item.video or '— нет —'}")
@@ -1058,7 +1076,7 @@ def run(args) -> int:
             failures += 1
             log(f"❌ Не опубликовано ({exc}): {item.title}")
 
-    if sent and PIN_ENABLED and not args.no_pin and CHAT:
+    if sent and pin_now:
         pin_id = sent.get(pin_item.id) if pin_item else None
         try:
             update_pin(pin_id or next(iter(sent.values())), state)
