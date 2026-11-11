@@ -822,9 +822,15 @@ def tg(method: str, data: dict | None = None, files: dict | None = None) -> dict
     if not BOT_TOKEN:
         raise TgError("нет BOT_TOKEN")
     data = {k: (v if isinstance(v, str) else json.dumps(v)) for k, v in (data or {}).items() if v is not None}
-    for _ in range(4):
-        response = requests.post(f"https://api.telegram.org/bot{BOT_TOKEN}/{method}",
-                                 data=data, files=files, timeout=90)
+    for attempt in range(5):
+        try:
+            response = requests.post(f"https://api.telegram.org/bot{BOT_TOKEN}/{method}",
+                                     data=data, files=files, timeout=90)
+        except requests.RequestException as exc:  # обрыв связи — пробуем ещё раз
+            if attempt == 4:
+                raise TgError(f"нет связи с Telegram ({type(exc).__name__})")
+            time.sleep(5 * (attempt + 1))
+            continue
         try:
             payload = response.json()
         except ValueError:
