@@ -11,7 +11,13 @@
   "https://khmertimeskh.com/502054147/speeding-driver-arrested-after-five-students-drown-in-bus-crash": "2026-11-11T21:42+07:00",
   "https://t.me/khmertimesbreakingnews/98790": "2026-11-11T21:42+07:00",
   "https://khmertimeskh.com/502054956/cambodia-destroys-750-tonnes-of-counterfeit-products-in-kandal": "2026-11-11T21:42+07:00",
-  "https://t.me/khmertimesbreakingnews/98827": "2026-11-11T21:42+07:00"
+  "https://t.me/khmertimesbreakingnews/98827": "2026-11-11T21:42+07:00",
+  "https://khmertimeskh.com/502054772/drug-addict-arrested-after-threatening-to-kill-mother": "2026-11-12T02:57+07:00",
+  "https://t.me/khmertimesbreakingnews/98795": "2026-11-12T02:57+07:00",
+  "https://t.me/khmertimesbreakingnews/98786": "2026-11-12T02:58+07:00",
+  "https://khmertimeskh.com/502054306/what-happens-to-your-cambodian-property-when-you-pass-away": "2026-11-12T02:58+07:00",
+  "https://t.me/khmertimesbreakingnews/98791": "2026-11-12T02:58+07:00",
+  "https://khmertimeskh.com/502054716/typhoon-cempaka-brings-scattered-rain-and-wind-to-parts-of-cambodia": "2026-11-12T02:58+07:00"
  },
  "recent": [
   {
@@ -43,10 +49,25 @@
    "src": "Cambodia destroys 750 tonnes of counterfeit products in Kandal",
    "ru": "В провинции Кандаль уничтожили огромную партию фальсификата",
    "at": "2026-11-11T21:42+07:00"
+  },
+  {
+   "src": "Drug addict arrested after threatening to kill mother",
+   "ru": "В провинции Кандаль наркоман угрожал убить родную мать и попал в полицию",
+   "at": "2026-11-12T02:57+07:00"
+  },
+  {
+   "src": "What happens to your Cambodian property when you pass away?",
+   "ru": "Что произойдет с вашей недвижимостью в Камбодже в случае внезапной смерти",
+   "at": "2026-11-12T02:58+07:00"
+  },
+  {
+   "src": "Typhoon Cempaka brings scattered rain and wind to parts of Cambodia",
+   "ru": "На Камбоджу надвигаются дожди и штормовой ветер из-за тайфуна Семпака",
+   "at": "2026-11-12T02:58+07:00"
   }
  ],
  "pinned_message_id": null,
- "last_run": "2026-11-11T21:43+07:00",
+ "last_run": "2026-11-12T02:58+07:00",
  "slots_done": [
   "2026-11-11 20:00"
  ]
