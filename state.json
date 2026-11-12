@@ -29,7 +29,13 @@
   "https://phnompenhpost.com/national/russians-ink-deal-to-develop-cambodia-tour-packages": "2026-11-12T14:00+07:00",
   "https://t.me/thephnompenhpost/34722": "2026-11-12T14:00+07:00",
   "https://khmertimeskh.com/502055348/phnom-penh-prepares-for-20th-francophonie-summit": "2026-11-12T14:00+07:00",
-  "https://t.me/khmertimesbreakingnews/98847": "2026-11-12T14:00+07:00"
+  "https://t.me/khmertimesbreakingnews/98847": "2026-11-12T14:00+07:00",
+  "https://t.me/khmertimesbreakingnews/98903": "2026-11-12T20:00+07:00",
+  "https://khmertimeskh.com/502055735/phnom-penhs-3-6-million-vehicles-and-nearly-2000-high-rises-highlight-need-for-compulsory-insurance": "2026-11-12T20:00+07:00",
+  "https://t.me/thephnompenhpost/34720": "2026-11-12T20:00+07:00",
+  "https://phnompenhpost.com/national/worst-of-both-worlds-despite-record-storms-cambodia-facing-drought": "2026-11-12T20:00+07:00",
+  "https://khmertimeskh.com/502055247/october-blazes-torch-33-homes": "2026-11-12T20:00+07:00",
+  "https://t.me/khmertimesbreakingnews/98866": "2026-11-12T20:00+07:00"
  },
  "recent": [
   {
@@ -106,13 +112,29 @@
    "src": "Phnom Penh prepares for 20th Francophonie Summit",
    "ru": "Пномпень на осадном положении: город готовят к крупному международному саммиту",
    "at": "2026-11-12T14:00+07:00"
+  },
+  {
+   "src": "Phnom Penh’s 3.6 million vehicles and nearly 2,000 high-rises highlight need for compulsory insurance",
+   "ru": "В Пномпене задумались об обязательной страховке из-за наплыва авто и высоток",
+   "at": "2026-11-12T20:00+07:00"
+  },
+  {
+   "src": "Worst of both worlds: Despite record storms, Cambodia facing drought",
+   "ru": "Рекордное число штормов не спасло Камбоджу от угрозы катастрофической засухи",
+   "at": "2026-11-12T20:00+07:00"
+  },
+  {
+   "src": "October blazes torch 33 homes",
+   "ru": "Десятки домов сгорели дотла: опубликован пугающий отчет о пожарах в Камбодже",
+   "at": "2026-11-12T20:00+07:00"
   }
  ],
  "pinned_message_id": null,
- "last_run": "2026-11-12T14:00+07:00",
+ "last_run": "2026-11-12T20:00+07:00",
  "slots_done": [
   "2026-11-11 20:00",
   "2026-11-12 08:00",
-  "2026-11-12 14:00"
+  "2026-11-12 14:00",
+  "2026-11-12 20:00"
  ]
 }
