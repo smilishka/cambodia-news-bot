@@ -17,7 +17,13 @@
   "https://t.me/khmertimesbreakingnews/98786": "2026-11-12T02:58+07:00",
   "https://khmertimeskh.com/502054306/what-happens-to-your-cambodian-property-when-you-pass-away": "2026-11-12T02:58+07:00",
   "https://t.me/khmertimesbreakingnews/98791": "2026-11-12T02:58+07:00",
-  "https://khmertimeskh.com/502054716/typhoon-cempaka-brings-scattered-rain-and-wind-to-parts-of-cambodia": "2026-11-12T02:58+07:00"
+  "https://khmertimeskh.com/502054716/typhoon-cempaka-brings-scattered-rain-and-wind-to-parts-of-cambodia": "2026-11-12T02:58+07:00",
+  "https://khmertimeskh.com/502054501/pm-abolishes-district-level-military-structure-in-reshuffle": "2026-11-12T08:00+07:00",
+  "https://t.me/khmertimesbreakingnews/98801": "2026-11-12T08:00+07:00",
+  "https://khmertimeskh.com/502054850/health-ministry-calls-on-parents-to-vaccinate-girls-against-cervical-cancer": "2026-11-12T08:00+07:00",
+  "https://t.me/khmertimesbreakingnews/98800": "2026-11-12T08:00+07:00",
+  "https://t.me/khmertimesbreakingnews/98809": "2026-11-12T08:00+07:00",
+  "https://khmertimeskh.com/502054875/three-ministries-unite-to-plan-road-and-infrastructure-repairs-after-flooding": "2026-11-12T08:00+07:00"
  },
  "recent": [
   {
@@ -64,11 +70,27 @@
    "src": "Typhoon Cempaka brings scattered rain and wind to parts of Cambodia",
    "ru": "На Камбоджу надвигаются дожди и штормовой ветер из-за тайфуна Семпака",
    "at": "2026-11-12T02:58+07:00"
+  },
+  {
+   "src": "PM abolishes district-level military structure in reshuffle",
+   "ru": "Премьер-министр Камбоджи решил полностью упразднить районные военные структуры",
+   "at": "2026-11-12T08:00+07:00"
+  },
+  {
+   "src": "Health Ministry calls on parents to vaccinate girls against cervical cancer",
+   "ru": "В Камбодже стартовала бесплатная вакцинация девочек от опасного заболевания",
+   "at": "2026-11-12T08:00+07:00"
+  },
+  {
+   "src": "Three ministries unite to plan road and infrastructure repairs after flooding",
+   "ru": "Сразу три министерства Камбоджи срочно объединились из-за последствий наводнений",
+   "at": "2026-11-12T08:00+07:00"
   }
  ],
  "pinned_message_id": null,
- "last_run": "2026-11-12T02:58+07:00",
+ "last_run": "2026-11-12T08:00+07:00",
  "slots_done": [
-  "2026-11-11 20:00"
+  "2026-11-11 20:00",
+  "2026-11-12 08:00"
  ]
 }
