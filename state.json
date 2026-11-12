@@ -35,7 +35,13 @@
   "https://t.me/thephnompenhpost/34720": "2026-11-12T20:00+07:00",
   "https://phnompenhpost.com/national/worst-of-both-worlds-despite-record-storms-cambodia-facing-drought": "2026-11-12T20:00+07:00",
   "https://khmertimeskh.com/502055247/october-blazes-torch-33-homes": "2026-11-12T20:00+07:00",
-  "https://t.me/khmertimesbreakingnews/98866": "2026-11-12T20:00+07:00"
+  "https://t.me/khmertimesbreakingnews/98866": "2026-11-12T20:00+07:00",
+  "https://phnompenhpost.com/national/angelina-jolie-describes-cambodia-as-home-praises-resilience-of-its-people": "2026-11-13T03:29+07:00",
+  "https://t.me/thephnompenhpost/34725": "2026-11-13T03:29+07:00",
+  "https://t.me/khmertimesbreakingnews/98861": "2026-11-13T03:29+07:00",
+  "https://khmertimeskh.com/502055187/cambodia-ranks-138th-globally-in-illicit-trade-vulnerability-index": "2026-11-13T03:29+07:00",
+  "https://khmertimeskh.com/502055461/500-strike-over-unpaid-wages-in-kampong-speu": "2026-11-13T03:29+07:00",
+  "https://t.me/khmertimesbreakingnews/98855": "2026-11-13T03:29+07:00"
  },
  "recent": [
   {
@@ -127,10 +133,25 @@
    "src": "October blazes torch 33 homes",
    "ru": "Десятки домов сгорели дотла: опубликован пугающий отчет о пожарах в Камбодже",
    "at": "2026-11-12T20:00+07:00"
+  },
+  {
+   "src": "Angelina Jolie describes Cambodia as ‘home’, praises resilience of its people",
+   "ru": "Анджелина Джоли сделала трогательное признание о своем отношении к Камбодже",
+   "at": "2026-11-13T03:29+07:00"
+  },
+  {
+   "src": "Cambodia ranks 138th globally in illicit trade vulnerability index",
+   "ru": "Камбоджа оказалась на последнем месте в АСЕАН по уязвимости к незаконной торговле",
+   "at": "2026-11-13T03:29+07:00"
+  },
+  {
+   "src": "500 strike over unpaid wages in Kampong Speu",
+   "ru": "Сотни рабочих устроили масштабную забастовку на фабрике в провинции Кампонгспы",
+   "at": "2026-11-13T03:29+07:00"
   }
  ],
  "pinned_message_id": null,
- "last_run": "2026-11-12T20:00+07:00",
+ "last_run": "2026-11-13T03:29+07:00",
  "slots_done": [
   "2026-11-11 20:00",
   "2026-11-12 08:00",
