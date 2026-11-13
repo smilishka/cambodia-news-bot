@@ -41,7 +41,13 @@
   "https://t.me/khmertimesbreakingnews/98861": "2026-11-13T03:29+07:00",
   "https://khmertimeskh.com/502055187/cambodia-ranks-138th-globally-in-illicit-trade-vulnerability-index": "2026-11-13T03:29+07:00",
   "https://khmertimeskh.com/502055461/500-strike-over-unpaid-wages-in-kampong-speu": "2026-11-13T03:29+07:00",
-  "https://t.me/khmertimesbreakingnews/98855": "2026-11-13T03:29+07:00"
+  "https://t.me/khmertimesbreakingnews/98855": "2026-11-13T03:29+07:00",
+  "https://khmertimeskh.com/502055320/cambodia-un-and-eu-urge-action-on-online-exploitation": "2026-11-13T08:00+07:00",
+  "https://t.me/khmertimesbreakingnews/98868": "2026-11-13T08:00+07:00",
+  "https://khmertimeskh.com/502055610/metfone-officially-launches-methealth-helping-cambodians-access-quality-healthcare-services": "2026-11-13T08:00+07:00",
+  "https://t.me/khmertimesbreakingnews/98864": "2026-11-13T08:00+07:00",
+  "https://t.me/khmertimesbreakingnews/98853": "2026-11-13T08:00+07:00",
+  "https://khmertimeskh.com/502055441/drug-addicts-arrested-in-phnom-penh-2": "2026-11-13T08:00+07:00"
  },
  "recent": [
   {
@@ -148,14 +154,30 @@
    "src": "500 strike over unpaid wages in Kampong Speu",
    "ru": "Сотни рабочих устроили масштабную забастовку на фабрике в провинции Кампонгспы",
    "at": "2026-11-13T03:29+07:00"
+  },
+  {
+   "src": "Cambodia, UN and EU urge action on online exploitation",
+   "ru": "Угроза из сети: ООН и Евросоюз бьют тревогу из-за киберпреступности в Камбодже",
+   "at": "2026-11-13T08:00+07:00"
+  },
+  {
+   "src": "Metfone officially launches MetHealth, helping Cambodians access quality healthcare services",
+   "ru": "Медицина без границ: оператор Metfone запускает сервис для поездок к врачам",
+   "at": "2026-11-13T08:00+07:00"
+  },
+  {
+   "src": "Drug addicts arrested in Phnom Penh",
+   "ru": "Улицы стали чище: в столице задержаны потребители запрещенных веществ",
+   "at": "2026-11-13T08:00+07:00"
   }
  ],
  "pinned_message_id": null,
- "last_run": "2026-11-13T03:29+07:00",
+ "last_run": "2026-11-13T08:00+07:00",
  "slots_done": [
   "2026-11-11 20:00",
   "2026-11-12 08:00",
   "2026-11-12 14:00",
-  "2026-11-12 20:00"
+  "2026-11-12 20:00",
+  "2026-11-13 08:00"
  ]
 }
