@@ -47,7 +47,13 @@
   "https://khmertimeskh.com/502055610/metfone-officially-launches-methealth-helping-cambodians-access-quality-healthcare-services": "2026-11-13T08:00+07:00",
   "https://t.me/khmertimesbreakingnews/98864": "2026-11-13T08:00+07:00",
   "https://t.me/khmertimesbreakingnews/98853": "2026-11-13T08:00+07:00",
-  "https://khmertimeskh.com/502055441/drug-addicts-arrested-in-phnom-penh-2": "2026-11-13T08:00+07:00"
+  "https://khmertimeskh.com/502055441/drug-addicts-arrested-in-phnom-penh-2": "2026-11-13T08:00+07:00",
+  "https://t.me/khmertimesbreakingnews/98941": "2026-11-13T14:00+07:00",
+  "https://khmertimeskh.com/502056261/food-delivery-driver-arrested-for-sexual-assault-in-phnom-penh": "2026-11-13T14:00+07:00",
+  "https://t.me/khmertimesbreakingnews/98919": "2026-11-13T14:00+07:00",
+  "https://khmertimeskh.com/502055896/haikou-phnom-penh-direct-flights-set-for-december-12": "2026-11-13T14:00+07:00",
+  "https://t.me/khmertimesbreakingnews/98909": "2026-11-13T14:00+07:00",
+  "https://khmertimeskh.com/502055898/cambodia-hosts-first-francophone-business-forum-in-southeast-asia": "2026-11-13T14:00+07:00"
  },
  "recent": [
   {
@@ -169,15 +175,31 @@
    "src": "Drug addicts arrested in Phnom Penh",
    "ru": "Улицы стали чище: в столице задержаны потребители запрещенных веществ",
    "at": "2026-11-13T08:00+07:00"
+  },
+  {
+   "src": "Food delivery driver arrested for sexual assault in Phnom Penh",
+   "ru": "Курьер службы доставки арестован в Пномпене после обвинений в насилии",
+   "at": "2026-11-13T14:00+07:00"
+  },
+  {
+   "src": "Haikou-Phnom Penh direct flights set for December 12",
+   "ru": "Прямые рейсы свяжут Хайкоу и Пномпень уже в следующем месяце",
+   "at": "2026-11-13T14:00+07:00"
+  },
+  {
+   "src": "Cambodia hosts first Francophone business forum in Southeast Asia",
+   "ru": "Первый франкофонный бизнес-форум Юго-Восточной Азии открылся в стране",
+   "at": "2026-11-13T14:00+07:00"
   }
  ],
  "pinned_message_id": null,
- "last_run": "2026-11-13T08:00+07:00",
+ "last_run": "2026-11-13T14:00+07:00",
  "slots_done": [
   "2026-11-11 20:00",
   "2026-11-12 08:00",
   "2026-11-12 14:00",
   "2026-11-12 20:00",
-  "2026-11-13 08:00"
+  "2026-11-13 08:00",
+  "2026-11-13 14:00"
  ]
 }
