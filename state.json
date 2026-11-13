@@ -53,7 +53,12 @@
   "https://t.me/khmertimesbreakingnews/98919": "2026-11-13T14:00+07:00",
   "https://khmertimeskh.com/502055896/haikou-phnom-penh-direct-flights-set-for-december-12": "2026-11-13T14:00+07:00",
   "https://t.me/khmertimesbreakingnews/98909": "2026-11-13T14:00+07:00",
-  "https://khmertimeskh.com/502055898/cambodia-hosts-first-francophone-business-forum-in-southeast-asia": "2026-11-13T14:00+07:00"
+  "https://khmertimeskh.com/502055898/cambodia-hosts-first-francophone-business-forum-in-southeast-asia": "2026-11-13T14:00+07:00",
+  "https://cambojanews.com/wownow-delivery-app-removed-from-apple-app-store-online-payments-suspended": "2026-11-13T20:00+07:00",
+  "https://khmertimeskh.com/502055888/cambodia-could-hit-its-2030-ev-target-in-2027-who-will-fix-the-cars": "2026-11-13T20:00+07:00",
+  "https://t.me/khmertimesbreakingnews/98936": "2026-11-13T20:00+07:00",
+  "https://t.me/khmertimesbreakingnews/98943": "2026-11-13T20:00+07:00",
+  "https://khmertimeskh.com/502056356/cambodia-deports-36-vietnamese-nationals-over-illegal-stay-and-employment": "2026-11-13T20:00+07:00"
  },
  "recent": [
   {
@@ -190,16 +195,32 @@
    "src": "Cambodia hosts first Francophone business forum in Southeast Asia",
    "ru": "Первый франкофонный бизнес-форум Юго-Восточной Азии открылся в стране",
    "at": "2026-11-13T14:00+07:00"
+  },
+  {
+   "src": "Wownow Delivery App Removed From Apple App Store, Online Payments Suspended",
+   "ru": "Популярный сервис доставки Wownow исчез из App Store после санкций США",
+   "at": "2026-11-13T20:00+07:00"
+  },
+  {
+   "src": "Cambodia could hit its 2030 EV target in 2027. Who will fix the cars?",
+   "ru": "Камбоджа может досрочно выполнить план по электромобилям уже к 2027 году",
+   "at": "2026-11-13T20:00+07:00"
+  },
+  {
+   "src": "Cambodia deports 36 Vietnamese nationals over illegal stay and employment",
+   "ru": "Из Камбоджи депортировали десятки граждан Вьетнама за нелегальное пребывание",
+   "at": "2026-11-13T20:00+07:00"
   }
  ],
  "pinned_message_id": null,
- "last_run": "2026-11-13T14:00+07:00",
+ "last_run": "2026-11-13T20:00+07:00",
  "slots_done": [
   "2026-11-11 20:00",
   "2026-11-12 08:00",
   "2026-11-12 14:00",
   "2026-11-12 20:00",
   "2026-11-13 08:00",
-  "2026-11-13 14:00"
+  "2026-11-13 14:00",
+  "2026-11-13 20:00"
  ]
 }
