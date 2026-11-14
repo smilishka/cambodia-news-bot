@@ -64,7 +64,13 @@
   "https://phnompenhpost.com/national/authorities-looking-forward-to-west-mebon-temple-inauguration-after-14-year-restoration": "2026-11-14T03:04+07:00",
   "https://t.me/thephnompenhpost/34738": "2026-11-14T03:04+07:00",
   "https://khmertimeskh.com/502056120/police-arrest-nine-men-over-fatal-shooting-in-oil-theft-case": "2026-11-14T03:05+07:00",
-  "https://t.me/khmertimesbreakingnews/98925": "2026-11-14T03:05+07:00"
+  "https://t.me/khmertimesbreakingnews/98925": "2026-11-14T03:05+07:00",
+  "https://khmertimeskh.com/502056395/road-incidents-kill-50-injure-126-across-cambodia-in-early-november": "2026-11-14T08:00+07:00",
+  "https://t.me/khmertimesbreakingnews/98954": "2026-11-14T08:00+07:00",
+  "https://t.me/khmertimesbreakingnews/98934": "2026-11-14T08:00+07:00",
+  "https://khmertimeskh.com/502056273/king-sihamoni-grants-cambodian-citizenship-to-us-humanitarian-after-three-decades-of-service": "2026-11-14T08:00+07:00",
+  "https://khmertimeskh.com/502056222/scattered-rains-forecast-across-cambodia": "2026-11-14T08:00+07:00",
+  "https://t.me/khmertimesbreakingnews/98940": "2026-11-14T08:00+07:00"
  },
  "recent": [
   {
@@ -231,10 +237,25 @@
    "src": "Police arrest nine men over fatal shooting in oil theft case",
    "ru": "Задержание в Кампонгспы: девять человек арестованы после смертельного нападения",
    "at": "2026-11-14T03:05+07:00"
+  },
+  {
+   "src": "Road incidents kill 50, injure 126 across Cambodia in early November",
+   "ru": "Смертоносное начало ноября: десятки погибших в дорожных авариях по всей Камбодже",
+   "at": "2026-11-14T08:00+07:00"
+  },
+  {
+   "src": "King Sihamoni grants Cambodian citizenship to US humanitarian after three decades of service",
+   "ru": "Американский гуманитарий получил гражданство Камбоджи за три десятилетия помощи детям",
+   "at": "2026-11-14T08:00+07:00"
+  },
+  {
+   "src": "Scattered rains forecast across Cambodia",
+   "ru": "Синоптики предупреждают о дождях по всей Камбодже из-за северо-восточного муссона",
+   "at": "2026-11-14T08:00+07:00"
   }
  ],
  "pinned_message_id": null,
- "last_run": "2026-11-14T03:05+07:00",
+ "last_run": "2026-11-14T08:00+07:00",
  "slots_done": [
   "2026-11-11 20:00",
   "2026-11-12 08:00",
@@ -242,6 +263,7 @@
   "2026-11-12 20:00",
   "2026-11-13 08:00",
   "2026-11-13 14:00",
-  "2026-11-13 20:00"
+  "2026-11-13 20:00",
+  "2026-11-14 08:00"
  ]
 }
