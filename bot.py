@@ -1013,11 +1013,13 @@ def run(args) -> int:
     slot_key = None
     if args.wait_slot:
         slot = nearest_slot()
-        if slot:
-            slot_key = f"{dt.datetime.now(TZ):%Y-%m-%d} {slot}"
-            if slot_key in state.get("slots_done", []):
-                log(f"Выпуск {slot_key} уже опубликован другим запуском — пропускаю.")
-                return 0
+        if not slot:  # GitHub разбудил бота с опозданием на много часов — ночью не публикуем
+            log(f"Сейчас {dt.datetime.now(TZ):%H:%M} — вне времени выпусков {', '.join(SLOTS)}, пропускаю.")
+            return 0
+        slot_key = f"{dt.datetime.now(TZ):%Y-%m-%d} {slot}"
+        if slot_key in state.get("slots_done", []):
+            log(f"Выпуск {slot_key} уже опубликован другим запуском — пропускаю.")
+            return 0
     since = since_time()
     log(f"Собираю новости с {since:%d.%m %H:%M} (время Пномпеня)…")
     items, report = collect(since)
