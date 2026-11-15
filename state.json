@@ -82,7 +82,13 @@
   "https://t.me/khmertimesbreakingnews/98993": "2026-11-14T20:00+07:00",
   "https://khmertimeskh.com?p=2056589": "2026-11-14T20:00+07:00",
   "https://khmertimeskh.com?p=2056798": "2026-11-14T20:00+07:00",
-  "https://t.me/khmertimesbreakingnews/99013": "2026-11-14T20:00+07:00"
+  "https://t.me/khmertimesbreakingnews/99013": "2026-11-14T20:00+07:00",
+  "https://t.me/khmertimesbreakingnews/98990": "2026-11-15T08:00+07:00",
+  "https://khmertimeskh.com?p=2056567": "2026-11-15T08:00+07:00",
+  "https://khmertimeskh.com?p=2056268": "2026-11-15T08:00+07:00",
+  "https://t.me/khmertimesbreakingnews/98988": "2026-11-15T08:00+07:00",
+  "https://khmertimeskh.com?p=2056781": "2026-11-15T08:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99010": "2026-11-15T08:00+07:00"
  },
  "recent": [
   {
@@ -294,10 +300,25 @@
    "src": "Young designers showcase affordable cooling homes in national competition",
    "ru": "Защита от жары и экономия: молодые архитекторы создали доступные эко-дома",
    "at": "2026-11-14T20:00+07:00"
+  },
+  {
+   "src": "Opposition party members arrested over forgery",
+   "ru": "В Камбодже арестовали членов оппозиционной партии за подделку документов",
+   "at": "2026-11-15T08:00+07:00"
+  },
+  {
+   "src": "Interior Ministry condemns harassment of female fruit seller",
+   "ru": "Нападение на продавщицу фруктов попало на видео и вызвало скандал в МВД",
+   "at": "2026-11-15T08:00+07:00"
+  },
+  {
+   "src": "VIDEO: Hun Sen, new US ambassador discuss bilateral ties and online crime crackdown",
+   "ru": "Хун Сен и новый посол США договорились о совместной борьбе с онлайн скамом",
+   "at": "2026-11-15T08:00+07:00"
   }
  ],
  "pinned_message_id": null,
- "last_run": "2026-11-14T20:00+07:00",
+ "last_run": "2026-11-15T08:00+07:00",
  "slots_done": [
   "2026-11-11 20:00",
   "2026-11-12 08:00",
@@ -308,6 +329,7 @@
   "2026-11-13 20:00",
   "2026-11-14 08:00",
   "2026-11-14 14:00",
-  "2026-11-14 20:00"
+  "2026-11-14 20:00",
+  "2026-11-15 08:00"
  ]
 }
