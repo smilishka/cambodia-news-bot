@@ -98,7 +98,13 @@
   "https://khmertimeskh.com?p=2057021": "2026-11-15T20:00+07:00",
   "https://t.me/khmertimesbreakingnews/99037": "2026-11-15T20:00+07:00",
   "https://khmertimeskh.com/category/national": "2026-11-15T20:00+07:00",
-  "https://t.me/khmertimesbreakingnews/99022": "2026-11-15T20:00+07:00"
+  "https://t.me/khmertimesbreakingnews/99022": "2026-11-15T20:00+07:00",
+  "https://t.me/thephnompenhpost/34768": "2026-11-16T08:00+07:00",
+  "https://phnompenhpost.com/national/macron-calls-for-investigation-into-bangkok-killing-of-opposition-politician": "2026-11-16T08:00+07:00",
+  "https://khmertimeskh.com?p=2057168": "2026-11-16T08:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99052": "2026-11-16T08:00+07:00",
+  "https://phnompenhpost.com/national/despite-anutin-claiming-support-for-bilateral-mechanisms-thai-jbc-team-yet-to-resume-work": "2026-11-16T08:00+07:00",
+  "https://t.me/thephnompenhpost/34767": "2026-11-16T08:00+07:00"
  },
  "recent": [
   {
@@ -350,10 +356,25 @@
    "src": "Cambodia and Vietnam sign 2027 pact to combat cyber scams",
    "ru": "Страны АСЕАН поддержали призыв Камбоджи к миру на границе с Таиландом",
    "at": "2026-11-15T20:00+07:00"
+  },
+  {
+   "src": "Macron calls for investigation into Bangkok killing of opposition politician",
+   "ru": "Эммануэль Макрон потребовал расследовать убийство камбоджийского политика в Бангкоке",
+   "at": "2026-11-16T08:00+07:00"
+  },
+  {
+   "src": "France-Cambodia Business Forum 2026 (FAFC)",
+   "ru": "В Пномпене пройдет крупный бизнес-форум Франции и Камбоджи",
+   "at": "2026-11-16T08:00+07:00"
+  },
+  {
+   "src": "Despite Anutin claiming support for bilateral mechanisms, Thai JBC team yet to resume work",
+   "ru": "Таиланд затягивает решение по границам с Камбоджей вопреки собственным заявлениям",
+   "at": "2026-11-16T08:00+07:00"
   }
  ],
  "pinned_message_id": null,
- "last_run": "2026-11-15T20:00+07:00",
+ "last_run": "2026-11-16T08:00+07:00",
  "slots_done": [
   "2026-11-11 20:00",
   "2026-11-12 08:00",
@@ -367,6 +388,7 @@
   "2026-11-14 20:00",
   "2026-11-15 08:00",
   "2026-11-15 14:00",
-  "2026-11-15 20:00"
+  "2026-11-15 20:00",
+  "2026-11-16 08:00"
  ]
 }
