@@ -110,7 +110,13 @@
   "https://phnompenhpost.com/socialite/the-three-pointed-star-returns-rma-cambodia-appointed-as-the-official-sole-authorised-importer-and-distributor-of-mercedes-benz-vehicles-in-cambodia": "2026-11-16T14:00+07:00",
   "https://t.me/thephnompenhpost/34786": "2026-11-16T14:00+07:00",
   "https://khmertimeskh.com/502057553/pursat-woman-jailed-over-tiktok-post": "2026-11-16T14:00+07:00",
-  "https://t.me/khmertimesbreakingnews/99092": "2026-11-16T14:00+07:00"
+  "https://t.me/khmertimesbreakingnews/99092": "2026-11-16T14:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99141": "2026-11-16T20:00+07:00",
+  "https://khmertimeskh.com?p=2057977": "2026-11-16T20:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99111": "2026-11-16T20:00+07:00",
+  "https://khmertimeskh.com/502057583/cambodia-and-vietnam-sign-new-security-pact": "2026-11-16T20:00+07:00",
+  "https://khmertimeskh.com/502057481/serc-csx-team-up-with-banks-to-simplify-trading-setup": "2026-11-16T20:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99122": "2026-11-16T20:00+07:00"
  },
  "recent": [
   {
@@ -392,10 +398,25 @@
    "src": "Pursat woman jailed over TikTok post",
    "ru": "Скандальный пост в соцсетях обернулся реальным тюремным сроком для девушки",
    "at": "2026-11-16T14:00+07:00"
+  },
+  {
+   "src": "NBC inks Visa, Mastercard deals for tourist payments",
+   "ru": "Иностранным туристам в Камбодже станет намного проще платить через QR-коды",
+   "at": "2026-11-16T20:00+07:00"
+  },
+  {
+   "src": "Cambodia and Vietnam sign new security pact",
+   "ru": "Камбоджа и Вьетнам объединяют силы для жесткой борьбы с онлайн-мошенниками",
+   "at": "2026-11-16T20:00+07:00"
+  },
+  {
+   "src": "SERC, CSX team up with banks to simplify trading setup",
+   "ru": "Инвестировать в Камбодже стало проще благодаря новому соглашению биржи и банков",
+   "at": "2026-11-16T20:00+07:00"
   }
  ],
  "pinned_message_id": null,
- "last_run": "2026-11-16T14:00+07:00",
+ "last_run": "2026-11-16T20:00+07:00",
  "slots_done": [
   "2026-11-11 20:00",
   "2026-11-12 08:00",
@@ -411,6 +432,7 @@
   "2026-11-15 14:00",
   "2026-11-15 20:00",
   "2026-11-16 08:00",
-  "2026-11-16 14:00"
+  "2026-11-16 14:00",
+  "2026-11-16 20:00"
  ]
 }
