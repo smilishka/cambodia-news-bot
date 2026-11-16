@@ -104,7 +104,13 @@
   "https://khmertimeskh.com?p=2057168": "2026-11-16T08:00+07:00",
   "https://t.me/khmertimesbreakingnews/99052": "2026-11-16T08:00+07:00",
   "https://phnompenhpost.com/national/despite-anutin-claiming-support-for-bilateral-mechanisms-thai-jbc-team-yet-to-resume-work": "2026-11-16T08:00+07:00",
-  "https://t.me/thephnompenhpost/34767": "2026-11-16T08:00+07:00"
+  "https://t.me/thephnompenhpost/34767": "2026-11-16T08:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99091": "2026-11-16T14:00+07:00",
+  "https://khmertimeskh.com/502057711/foreigners-arrested-for-drugs-weapons-possession-in-phnom-penh": "2026-11-16T14:00+07:00",
+  "https://phnompenhpost.com/socialite/the-three-pointed-star-returns-rma-cambodia-appointed-as-the-official-sole-authorised-importer-and-distributor-of-mercedes-benz-vehicles-in-cambodia": "2026-11-16T14:00+07:00",
+  "https://t.me/thephnompenhpost/34786": "2026-11-16T14:00+07:00",
+  "https://khmertimeskh.com/502057553/pursat-woman-jailed-over-tiktok-post": "2026-11-16T14:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99092": "2026-11-16T14:00+07:00"
  },
  "recent": [
   {
@@ -371,10 +377,25 @@
    "src": "Despite Anutin claiming support for bilateral mechanisms, Thai JBC team yet to resume work",
    "ru": "Таиланд затягивает решение по границам с Камбоджей вопреки собственным заявлениям",
    "at": "2026-11-16T08:00+07:00"
+  },
+  {
+   "src": "Foreigners arrested for drugs, weapons possession in Phnom Penh",
+   "ru": "Иностранцев с оружием и наркотиками жестко задержали около аэропорта Пномпеня",
+   "at": "2026-11-16T14:00+07:00"
+  },
+  {
+   "src": "The Three-Pointed Star returns! RMA Cambodia Appointed as the Official Sole Authorised Importer and Distributor of Mercedes-Benz Vehicles in Cambodia",
+   "ru": "Легендарные авто Mercedes-Benz официально возвращаются на авторынок Камбоджи",
+   "at": "2026-11-16T14:00+07:00"
+  },
+  {
+   "src": "Pursat woman jailed over TikTok post",
+   "ru": "Скандальный пост в соцсетях обернулся реальным тюремным сроком для девушки",
+   "at": "2026-11-16T14:00+07:00"
   }
  ],
  "pinned_message_id": null,
- "last_run": "2026-11-16T08:00+07:00",
+ "last_run": "2026-11-16T14:00+07:00",
  "slots_done": [
   "2026-11-11 20:00",
   "2026-11-12 08:00",
@@ -389,6 +410,7 @@
   "2026-11-15 08:00",
   "2026-11-15 14:00",
   "2026-11-15 20:00",
-  "2026-11-16 08:00"
+  "2026-11-16 08:00",
+  "2026-11-16 14:00"
  ]
 }
