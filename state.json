@@ -128,7 +128,13 @@
   "https://khmertimeskh.com/502058554/bassac-river-bridge-construction-reaches-87-8-completion": "2026-11-17T14:00+07:00",
   "https://t.me/khmertimesbreakingnews/99177": "2026-11-17T14:00+07:00",
   "https://phnompenhpost.com/national/shot-bro-almost-quarter-million-dogs-vaccinated-during-the-landmark-rabies-campaign": "2026-11-17T14:00+07:00",
-  "https://t.me/thephnompenhpost/34832": "2026-11-17T14:00+07:00"
+  "https://t.me/thephnompenhpost/34832": "2026-11-17T14:00+07:00",
+  "https://phnompenhpost.com/national/pair-of-adult-moon-bears-rescued-from-koh-kong-hotel": "2026-11-17T20:00+07:00",
+  "https://t.me/thephnompenhpost/34858": "2026-11-17T20:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99213": "2026-11-17T20:00+07:00",
+  "https://khmertimeskh.com?p=2058771": "2026-11-17T20:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99182": "2026-11-17T20:00+07:00",
+  "https://khmertimeskh.com/502058113/joint-study-kicks-off-for-800-mw-koh-kong-power-project": "2026-11-17T20:00+07:00"
  },
  "recent": [
   {
@@ -455,10 +461,25 @@
    "src": "Shot bro! Almost quarter million dogs vaccinated during the landmark rabies campaign",
    "ru": "Почти четверть миллиона собак бесплатно привили от бешенства в Камбодже",
    "at": "2026-11-17T14:00+07:00"
+  },
+  {
+   "src": "Pair of adult moon bears rescued from Koh Kong hotel",
+   "ru": "Пара взрослых лунных медведей спасена из отеля в Кох Конге",
+   "at": "2026-11-17T20:00+07:00"
+  },
+  {
+   "src": "NBC, Japan’s SBI launch pilot to expand access to tokenised government bonds",
+   "ru": "NBC, японский SBI запускает пилотный проект по расширению доступа к токенизированным государственным облигациям",
+   "at": "2026-11-17T20:00+07:00"
+  },
+  {
+   "src": "Joint study kicks off for 800 MW Koh Kong power project",
+   "ru": "Начинается совместное исследование проекта электростанции Кох Конг мощностью 800 МВт",
+   "at": "2026-11-17T20:00+07:00"
   }
  ],
  "pinned_message_id": null,
- "last_run": "2026-11-17T14:00+07:00",
+ "last_run": "2026-11-17T20:00+07:00",
  "slots_done": [
   "2026-11-11 20:00",
   "2026-11-12 08:00",
@@ -477,6 +498,7 @@
   "2026-11-16 14:00",
   "2026-11-16 20:00",
   "2026-11-17 08:00",
-  "2026-11-17 14:00"
+  "2026-11-17 14:00",
+  "2026-11-17 20:00"
  ]
 }
