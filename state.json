@@ -122,7 +122,13 @@
   "https://t.me/thephnompenhpost/34802": "2026-11-17T05:33+07:00",
   "https://phnompenhpost.com/business/france-provides-more-than-200m-in-energy-assistance-to-cambodia-lays-out-hydropower-plans": "2026-11-17T05:33+07:00",
   "https://t.me/thephnompenhpost/34816": "2026-11-17T05:33+07:00",
-  "https://phnompenhpost.com/business/cambodian-securities-exchange-lists-largest-bond-to-date-at-99m": "2026-11-17T05:33+07:00"
+  "https://phnompenhpost.com/business/cambodian-securities-exchange-lists-largest-bond-to-date-at-99m": "2026-11-17T05:33+07:00",
+  "https://t.me/khmertimesbreakingnews/99163": "2026-11-17T14:00+07:00",
+  "https://khmertimeskh.com/502058442/mother-and-2-children-die-in-sihanoukville-blaze": "2026-11-17T14:00+07:00",
+  "https://khmertimeskh.com/502058554/bassac-river-bridge-construction-reaches-87-8-completion": "2026-11-17T14:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99177": "2026-11-17T14:00+07:00",
+  "https://phnompenhpost.com/national/shot-bro-almost-quarter-million-dogs-vaccinated-during-the-landmark-rabies-campaign": "2026-11-17T14:00+07:00",
+  "https://t.me/thephnompenhpost/34832": "2026-11-17T14:00+07:00"
  },
  "recent": [
   {
@@ -434,10 +440,25 @@
    "src": "Cambodian securities exchange lists largest bond to date, at $99M",
    "ru": "На фондовой бирже Камбоджи зафиксирован рекорд за всю историю ее работы",
    "at": "2026-11-17T05:33+07:00"
+  },
+  {
+   "src": "Mother and 2 children die in Sihanoukville blaze",
+   "ru": "Страшный пожар в Сиануквиле унес жизни матери и двух маленьких детей",
+   "at": "2026-11-17T14:00+07:00"
+  },
+  {
+   "src": "Bassac River bridge construction reaches 87.8% completion",
+   "ru": "Строительство моста через реку Бассак вышло на финишную прямую",
+   "at": "2026-11-17T14:00+07:00"
+  },
+  {
+   "src": "Shot bro! Almost quarter million dogs vaccinated during the landmark rabies campaign",
+   "ru": "Почти четверть миллиона собак бесплатно привили от бешенства в Камбодже",
+   "at": "2026-11-17T14:00+07:00"
   }
  ],
  "pinned_message_id": null,
- "last_run": "2026-11-17T05:33+07:00",
+ "last_run": "2026-11-17T14:00+07:00",
  "slots_done": [
   "2026-11-11 20:00",
   "2026-11-12 08:00",
@@ -455,6 +476,7 @@
   "2026-11-16 08:00",
   "2026-11-16 14:00",
   "2026-11-16 20:00",
-  "2026-11-17 08:00"
+  "2026-11-17 08:00",
+  "2026-11-17 14:00"
  ]
 }
