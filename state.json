@@ -140,7 +140,13 @@
   "https://t.me/khmertimesbreakingnews/99217": "2026-11-18T08:00+07:00",
   "https://khmertimeskh.com/502058947/aba-bank-becomes-largest-single-lender-in-182-million-green-loan-for-cambodias-first-energy-storage-project": "2026-11-18T08:00+07:00",
   "https://t.me/khmertimesbreakingnews/99214": "2026-11-18T08:00+07:00",
-  "https://khmertimeskh.com?p=2058791": "2026-11-18T08:00+07:00"
+  "https://khmertimeskh.com?p=2058791": "2026-11-18T08:00+07:00",
+  "https://t.me/thephnompenhpost/34880": "2026-11-18T14:00+07:00",
+  "https://phnompenhpost.com/national/suspects-arrested-in-scam-raids-deputy-governors-wife-accused-of-renting-to-scammers": "2026-11-18T14:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99230": "2026-11-18T14:00+07:00",
+  "https://khmertimeskh.com/502059255/phnom-penhs-walk-street-open-for-5-days-to-celebrate-water-festival": "2026-11-18T14:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99241": "2026-11-18T14:00+07:00",
+  "https://khmertimeskh.com/502058932/5g-reaches-34-5-of-cambodians-as-subsea-cable-nears-2027-launch": "2026-11-18T14:00+07:00"
  },
  "recent": [
   {
@@ -497,10 +503,25 @@
    "src": "Sar Sokha reports more than 2,000 data discrepancies in national police records (VIDEO)",
    "ru": "В личных делах тысяч камбоджийских полицейских нашли странные ошибки",
    "at": "2026-11-18T08:00+07:00"
+  },
+  {
+   "src": "Suspects arrested in scam raids; deputy governor’s wife accused of renting to scammers",
+   "ru": "Рейды на скамеров в Бавете и громкое обвинение жены чиновника",
+   "at": "2026-11-18T14:00+07:00"
+  },
+  {
+   "src": "Phnom Penh’s Walk Street open for 5 days to celebrate Water Festival",
+   "ru": "Пешеходную улицу в Пномпене открывают на пять дней ради праздника",
+   "at": "2026-11-18T14:00+07:00"
+  },
+  {
+   "src": "5G reaches 34.5% of Cambodians as subsea cable nears 2027 launch",
+   "ru": "Скоростной интернет завоевывает Камбоджу рекордными темпами",
+   "at": "2026-11-18T14:00+07:00"
   }
  ],
  "pinned_message_id": null,
- "last_run": "2026-11-18T08:00+07:00",
+ "last_run": "2026-11-18T14:00+07:00",
  "slots_done": [
   "2026-11-11 20:00",
   "2026-11-12 08:00",
@@ -521,6 +542,7 @@
   "2026-11-17 08:00",
   "2026-11-17 14:00",
   "2026-11-17 20:00",
-  "2026-11-18 08:00"
+  "2026-11-18 08:00",
+  "2026-11-18 14:00"
  ]
 }
