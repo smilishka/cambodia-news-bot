@@ -134,7 +134,13 @@
   "https://t.me/khmertimesbreakingnews/99213": "2026-11-17T20:00+07:00",
   "https://khmertimeskh.com?p=2058771": "2026-11-17T20:00+07:00",
   "https://t.me/khmertimesbreakingnews/99182": "2026-11-17T20:00+07:00",
-  "https://khmertimeskh.com/502058113/joint-study-kicks-off-for-800-mw-koh-kong-power-project": "2026-11-17T20:00+07:00"
+  "https://khmertimeskh.com/502058113/joint-study-kicks-off-for-800-mw-koh-kong-power-project": "2026-11-17T20:00+07:00",
+  "https://phnompenhpost.com/national/indonesia-urges-businesses-in-cambodia-to-court-local-customers-after-closures": "2026-11-18T08:00+07:00",
+  "https://t.me/thephnompenhpost/34843": "2026-11-18T08:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99217": "2026-11-18T08:00+07:00",
+  "https://khmertimeskh.com/502058947/aba-bank-becomes-largest-single-lender-in-182-million-green-loan-for-cambodias-first-energy-storage-project": "2026-11-18T08:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99214": "2026-11-18T08:00+07:00",
+  "https://khmertimeskh.com?p=2058791": "2026-11-18T08:00+07:00"
  },
  "recent": [
   {
@@ -476,10 +482,25 @@
    "src": "Joint study kicks off for 800 MW Koh Kong power project",
    "ru": "Начинается совместное исследование проекта электростанции Кох Конг мощностью 800 МВт",
    "at": "2026-11-17T20:00+07:00"
+  },
+  {
+   "src": "Indonesia urges businesses in Cambodia to court local customers after closures",
+   "ru": "Массовый отъезд иностранцев оставил индонезийский бизнес без клиентов",
+   "at": "2026-11-18T08:00+07:00"
+  },
+  {
+   "src": "ABA Bank becomes largest single lender in $182 million green loan for Cambodia’s first energy storage project",
+   "ru": "Крупнейший банк Камбоджи вложился в грандиозный энергетический проект",
+   "at": "2026-11-18T08:00+07:00"
+  },
+  {
+   "src": "Sar Sokha reports more than 2,000 data discrepancies in national police records (VIDEO)",
+   "ru": "В личных делах тысяч камбоджийских полицейских нашли странные ошибки",
+   "at": "2026-11-18T08:00+07:00"
   }
  ],
  "pinned_message_id": null,
- "last_run": "2026-11-17T20:00+07:00",
+ "last_run": "2026-11-18T08:00+07:00",
  "slots_done": [
   "2026-11-11 20:00",
   "2026-11-12 08:00",
@@ -499,6 +520,7 @@
   "2026-11-16 20:00",
   "2026-11-17 08:00",
   "2026-11-17 14:00",
-  "2026-11-17 20:00"
+  "2026-11-17 20:00",
+  "2026-11-18 08:00"
  ]
 }
