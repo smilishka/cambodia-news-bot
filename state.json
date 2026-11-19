@@ -158,24 +158,15 @@
   "https://t.me/khmertimesbreakingnews/99275": "2026-11-19T08:00+07:00",
   "https://khmertimeskh.com/502059433/carrefour-lucky-supermarket-partnership-highlights-deepening-cambodia-france-commercial-ties": "2026-11-19T08:00+07:00",
   "https://khmertimeskh.com/502059283/contraband-booze-seized-at-smugglers-residence": "2026-11-19T08:00+07:00",
-  "https://t.me/khmertimesbreakingnews/99238": "2026-11-19T08:00+07:00"
+  "https://t.me/khmertimesbreakingnews/99238": "2026-11-19T08:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99294": "2026-11-19T14:00+07:00",
+  "https://khmertimeskh.com/502059913/6-foreigners-arrested-for-impersonating-chinese-soldiers": "2026-11-19T14:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99297": "2026-11-19T14:00+07:00",
+  "https://khmertimeskh.com/502059965/72-indonesian-nationals-deported-over-illegal-stay-work-and-online-scam-activities": "2026-11-19T14:00+07:00",
+  "https://khmertimeskh.com/502059697/chaktomuk-walk-street-to-open-for-five-days-during-water-festival": "2026-11-19T14:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99285": "2026-11-19T14:00+07:00"
  },
  "recent": [
-  {
-   "src": "New fuel prices set until November 21",
-   "ru": "Водителям в Камбодже подготовиться: обновлены розничные цены на топливо",
-   "at": "2026-11-11T14:31+07:00"
-  },
-  {
-   "src": "IN PICTURES: 39 Thais deported for illegal residence, illegal entry into military bases",
-   "ru": "Массовая депортация: Камбоджа выслала граждан Таиланда за нелегальный въезд",
-   "at": "2026-11-11T14:31+07:00"
-  },
-  {
-   "src": "Foreign and Cambodian drug traffickers arrested",
-   "ru": "Крупный наркорейд в Бантеймеантьей: полиция задержала банду иностранцев",
-   "at": "2026-11-11T14:31+07:00"
-  },
   {
    "src": "Prague announces direct charter flights to Sihanoukville",
    "ru": "Прямые рейсы из Европы в Сиануквиль могут стать постоянными",
@@ -560,10 +551,25 @@
    "src": "Contraband booze seized at smuggler’s residence",
    "ru": "Полиция накрыла склад контрабандного алкоголя прямо у границы с Таиландом",
    "at": "2026-11-19T08:00+07:00"
+  },
+  {
+   "src": "6 foreigners arrested for ‘impersonating Chinese soldiers’",
+   "ru": "Рейд в Пномпене: шестеро китайцев выдавали себя за военных ради скама",
+   "at": "2026-11-19T14:00+07:00"
+  },
+  {
+   "src": "72 Indonesian nationals deported over illegal stay, work and online scam activities",
+   "ru": "Массовая депортация: из Камбоджи выслали 72 гражданина Индонезии",
+   "at": "2026-11-19T14:00+07:00"
+  },
+  {
+   "src": "Chaktomuk Walk Street to open for five days during Water Festival",
+   "ru": "Пять дней праздника: пешеходная улица в Пномпене откроется к Водному фестивалю",
+   "at": "2026-11-19T14:00+07:00"
   }
  ],
  "pinned_message_id": null,
- "last_run": "2026-11-19T08:00+07:00",
+ "last_run": "2026-11-19T14:00+07:00",
  "slots_done": [
   "2026-11-11 20:00",
   "2026-11-12 08:00",
@@ -587,6 +593,7 @@
   "2026-11-18 08:00",
   "2026-11-18 14:00",
   "2026-11-18 20:00",
-  "2026-11-19 08:00"
+  "2026-11-19 08:00",
+  "2026-11-19 14:00"
  ]
 }
