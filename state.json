@@ -182,24 +182,15 @@
   "https://khmertimeskh.com/502060613/10-foreigners-arrested-in-phnom-penh-online-scam-raid": "2026-11-20T14:00+07:00",
   "https://t.me/khmertimesbreakingnews/99382": "2026-11-20T14:00+07:00",
   "https://t.me/khmertimesbreakingnews/99357": "2026-11-20T14:00+07:00",
-  "https://khmertimeskh.com/502060276/beauty-influencer-jailed-over-fatal-phnom-penh-hit-and-run": "2026-11-20T14:00+07:00"
+  "https://khmertimeskh.com/502060276/beauty-influencer-jailed-over-fatal-phnom-penh-hit-and-run": "2026-11-20T14:00+07:00",
+  "https://t.me/thephnompenhpost/34943": "2026-11-20T20:00+07:00",
+  "https://phnompenhpost.com/national/cambodian-businessman-sanctioned-by-us-over-scam-allegations": "2026-11-20T20:00+07:00",
+  "https://phnompenhpost.com/national/methd-up-trip-laotian-nationals-in-court-after-major-phnom-penh-drug-bust": "2026-11-20T20:00+07:00",
+  "https://t.me/thephnompenhpost/34922": "2026-11-20T20:00+07:00",
+  "https://khmertimeskh.com/502060697/angkor-glowing-night-to-illuminate-siem-reap-temples-in-december": "2026-11-20T20:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99388": "2026-11-20T20:00+07:00"
  },
  "recent": [
-  {
-   "src": "Kingdom deports 245 Chinese, Indonesians after anti-scam dragnet",
-   "ru": "Массовая высылка мошенников: Камбоджа депортировала сотни иностранцев",
-   "at": "2026-11-12T14:00+07:00"
-  },
-  {
-   "src": "Russians ink deal to develop Cambodia tour packages",
-   "ru": "Долгий отдых в Камбодже: российские туроператоры запускают новые программы",
-   "at": "2026-11-12T14:00+07:00"
-  },
-  {
-   "src": "Phnom Penh prepares for 20th Francophonie Summit",
-   "ru": "Пномпень на осадном положении: город готовят к крупному международному саммиту",
-   "at": "2026-11-12T14:00+07:00"
-  },
   {
    "src": "Phnom Penh’s 3.6 million vehicles and nearly 2,000 high-rises highlight need for compulsory insurance",
    "ru": "В Пномпене задумались об обязательной страховке из-за наплыва авто и высоток",
@@ -584,10 +575,25 @@
    "src": "Beauty influencer jailed over fatal Phnom Penh hit-and-run",
    "ru": "Известную бьюти-инфлюенсера в Пномпене приговорили к реальному сроку",
    "at": "2026-11-20T14:00+07:00"
+  },
+  {
+   "src": "Cambodian businessman sanctioned by US over scam allegations",
+   "ru": "США ввели санкции против обладателя камбоджийского паспорта из-за скам-центров",
+   "at": "2026-11-20T20:00+07:00"
+  },
+  {
+   "src": "Meth’d up trip: Laotian nationals in court after major Phnom Penh drug bust",
+   "ru": "Крупный перехват метамфетамина в Пномпене закончился судом для иностранцев",
+   "at": "2026-11-20T20:00+07:00"
+  },
+  {
+   "src": "Angkor Glowing Night to illuminate Siem Reap temples in December",
+   "ru": "Древние храмы Ангкора бесплатно подсветят в рамках грандиозного ночного шоу",
+   "at": "2026-11-20T20:00+07:00"
   }
  ],
  "pinned_message_id": null,
- "last_run": "2026-11-20T14:00+07:00",
+ "last_run": "2026-11-20T20:00+07:00",
  "slots_done": [
   "2026-11-11 20:00",
   "2026-11-12 08:00",
@@ -615,6 +621,7 @@
   "2026-11-19 14:00",
   "2026-11-19 20:00",
   "2026-11-20 08:00",
-  "2026-11-20 14:00"
+  "2026-11-20 14:00",
+  "2026-11-20 20:00"
  ]
 }
