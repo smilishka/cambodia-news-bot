@@ -170,24 +170,15 @@
   "https://khmertimeskh.com/502060080/gdi-denies-airport-officers-abused-woman-barred-from-travelling-to-sri-lanka": "2026-11-19T20:00+07:00",
   "https://t.me/khmertimesbreakingnews/99336": "2026-11-19T20:00+07:00",
   "https://khmertimeskh.com/502059478/gdt-collects-3-38-billion-tax-revenue-in-first-10-months": "2026-11-19T20:00+07:00",
-  "https://t.me/khmertimesbreakingnews/99312": "2026-11-19T20:00+07:00"
+  "https://t.me/khmertimesbreakingnews/99312": "2026-11-19T20:00+07:00",
+  "https://t.me/thephnompenhpost/34911": "2026-11-20T08:00+07:00",
+  "https://phnompenhpost.com/socialite/visa-nbc-and-acleda-bring-google-pay-to-bakong-virtual-visa-cards": "2026-11-20T08:00+07:00",
+  "https://khmertimeskh.com?p=2060157": "2026-11-20T08:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99348": "2026-11-20T08:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99344": "2026-11-20T08:00+07:00",
+  "https://khmertimeskh.com?p=2060119": "2026-11-20T08:00+07:00"
  },
  "recent": [
-  {
-   "src": "Drug addict arrested after threatening to kill mother",
-   "ru": "В провинции Кандаль наркоман угрожал убить родную мать и попал в полицию",
-   "at": "2026-11-12T02:57+07:00"
-  },
-  {
-   "src": "What happens to your Cambodian property when you pass away?",
-   "ru": "Что произойдет с вашей недвижимостью в Камбодже в случае внезапной смерти",
-   "at": "2026-11-12T02:58+07:00"
-  },
-  {
-   "src": "Typhoon Cempaka brings scattered rain and wind to parts of Cambodia",
-   "ru": "На Камбоджу надвигаются дожди и штормовой ветер из-за тайфуна Семпака",
-   "at": "2026-11-12T02:58+07:00"
-  },
   {
    "src": "PM abolishes district-level military structure in reshuffle",
    "ru": "Премьер-министр Камбоджи решил полностью упразднить районные военные структуры",
@@ -572,10 +563,25 @@
    "src": "GDT collects $3.38 billion tax revenue in first 10 months",
    "ru": "Миллиарды долларов в казну: налоговая Камбоджи раскрыла данные о доходах",
    "at": "2026-11-19T20:00+07:00"
+  },
+  {
+   "src": "Visa, NBC and ACLEDA bring Google Pay to Bakong Virtual Visa cards",
+   "ru": "Бесконтактные платежи стали проще: в Камбодже запустили Google Pay для Bakong",
+   "at": "2026-11-20T08:00+07:00"
+  },
+  {
+   "src": "MoE issues measures to mitigate potential El Niño impacts",
+   "ru": "Власти Камбоджи предупреждают о рисках и готовят меры из-за феномена Эль-Ниньо",
+   "at": "2026-11-20T08:00+07:00"
+  },
+  {
+   "src": "Two-Michelin-Star Chef Christophe Hay Arrives in Phnom Penh and Visits La Plantation Ahead of Charity Dinner with Master Chef Luu Meng",
+   "ru": "Обладатель двух звезд Мишлен прибыл в Камбоджу ради благотворительного ужина",
+   "at": "2026-11-20T08:00+07:00"
   }
  ],
  "pinned_message_id": null,
- "last_run": "2026-11-19T20:00+07:00",
+ "last_run": "2026-11-20T08:00+07:00",
  "slots_done": [
   "2026-11-11 20:00",
   "2026-11-12 08:00",
@@ -601,6 +607,7 @@
   "2026-11-18 20:00",
   "2026-11-19 08:00",
   "2026-11-19 14:00",
-  "2026-11-19 20:00"
+  "2026-11-19 20:00",
+  "2026-11-20 08:00"
  ]
 }
