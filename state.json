@@ -176,24 +176,15 @@
   "https://khmertimeskh.com?p=2060157": "2026-11-20T08:00+07:00",
   "https://t.me/khmertimesbreakingnews/99348": "2026-11-20T08:00+07:00",
   "https://t.me/khmertimesbreakingnews/99344": "2026-11-20T08:00+07:00",
-  "https://khmertimeskh.com?p=2060119": "2026-11-20T08:00+07:00"
+  "https://khmertimeskh.com?p=2060119": "2026-11-20T08:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99376": "2026-11-20T14:00+07:00",
+  "https://khmertimeskh.com/502060570/tax-department-extends-october-tax-filing-deadline-to-november-27": "2026-11-20T14:00+07:00",
+  "https://khmertimeskh.com/502060613/10-foreigners-arrested-in-phnom-penh-online-scam-raid": "2026-11-20T14:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99382": "2026-11-20T14:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99357": "2026-11-20T14:00+07:00",
+  "https://khmertimeskh.com/502060276/beauty-influencer-jailed-over-fatal-phnom-penh-hit-and-run": "2026-11-20T14:00+07:00"
  },
  "recent": [
-  {
-   "src": "PM abolishes district-level military structure in reshuffle",
-   "ru": "Премьер-министр Камбоджи решил полностью упразднить районные военные структуры",
-   "at": "2026-11-12T08:00+07:00"
-  },
-  {
-   "src": "Health Ministry calls on parents to vaccinate girls against cervical cancer",
-   "ru": "В Камбодже стартовала бесплатная вакцинация девочек от опасного заболевания",
-   "at": "2026-11-12T08:00+07:00"
-  },
-  {
-   "src": "Three ministries unite to plan road and infrastructure repairs after flooding",
-   "ru": "Сразу три министерства Камбоджи срочно объединились из-за последствий наводнений",
-   "at": "2026-11-12T08:00+07:00"
-  },
   {
    "src": "Kingdom deports 245 Chinese, Indonesians after anti-scam dragnet",
    "ru": "Массовая высылка мошенников: Камбоджа депортировала сотни иностранцев",
@@ -578,10 +569,25 @@
    "src": "Two-Michelin-Star Chef Christophe Hay Arrives in Phnom Penh and Visits La Plantation Ahead of Charity Dinner with Master Chef Luu Meng",
    "ru": "Обладатель двух звезд Мишлен прибыл в Камбоджу ради благотворительного ужина",
    "at": "2026-11-20T08:00+07:00"
+  },
+  {
+   "src": "Tax department extends October tax filing deadline to November 27",
+   "ru": "Сроки уплаты налогов за октябрь перенесли из-за праздников в Камбодже",
+   "at": "2026-11-20T14:00+07:00"
+  },
+  {
+   "src": "10 foreigners arrested in Phnom Penh online scam raid",
+   "ru": "В Пномпене провели крупный рейд и задержали десятерых иностранцев",
+   "at": "2026-11-20T14:00+07:00"
+  },
+  {
+   "src": "Beauty influencer jailed over fatal Phnom Penh hit-and-run",
+   "ru": "Известную бьюти-инфлюенсера в Пномпене приговорили к реальному сроку",
+   "at": "2026-11-20T14:00+07:00"
   }
  ],
  "pinned_message_id": null,
- "last_run": "2026-11-20T08:00+07:00",
+ "last_run": "2026-11-20T14:00+07:00",
  "slots_done": [
   "2026-11-11 20:00",
   "2026-11-12 08:00",
@@ -608,6 +614,7 @@
   "2026-11-19 08:00",
   "2026-11-19 14:00",
   "2026-11-19 20:00",
-  "2026-11-20 08:00"
+  "2026-11-20 08:00",
+  "2026-11-20 14:00"
  ]
 }
