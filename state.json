@@ -188,24 +188,15 @@
   "https://phnompenhpost.com/national/methd-up-trip-laotian-nationals-in-court-after-major-phnom-penh-drug-bust": "2026-11-20T20:00+07:00",
   "https://t.me/thephnompenhpost/34922": "2026-11-20T20:00+07:00",
   "https://khmertimeskh.com/502060697/angkor-glowing-night-to-illuminate-siem-reap-temples-in-december": "2026-11-20T20:00+07:00",
-  "https://t.me/khmertimesbreakingnews/99388": "2026-11-20T20:00+07:00"
+  "https://t.me/khmertimesbreakingnews/99388": "2026-11-20T20:00+07:00",
+  "https://khmertimeskh.com?p=2060943": "2026-11-21T08:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99429": "2026-11-21T08:00+07:00",
+  "https://phnompenhpost.com/business/cambodias-civil-aviation-sector-continues-to-face-tough-times": "2026-11-21T08:00+07:00",
+  "https://t.me/thephnompenhpost/34942": "2026-11-21T08:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99383": "2026-11-21T08:00+07:00",
+  "https://khmertimeskh.com/502060627/siem-reap-police-arrest-wildlife-smuggling-suspect-with-27-pythons": "2026-11-21T08:00+07:00"
  },
  "recent": [
-  {
-   "src": "Phnom Penh’s 3.6 million vehicles and nearly 2,000 high-rises highlight need for compulsory insurance",
-   "ru": "В Пномпене задумались об обязательной страховке из-за наплыва авто и высоток",
-   "at": "2026-11-12T20:00+07:00"
-  },
-  {
-   "src": "Worst of both worlds: Despite record storms, Cambodia facing drought",
-   "ru": "Рекордное число штормов не спасло Камбоджу от угрозы катастрофической засухи",
-   "at": "2026-11-12T20:00+07:00"
-  },
-  {
-   "src": "October blazes torch 33 homes",
-   "ru": "Десятки домов сгорели дотла: опубликован пугающий отчет о пожарах в Камбодже",
-   "at": "2026-11-12T20:00+07:00"
-  },
   {
    "src": "Angelina Jolie describes Cambodia as ‘home’, praises resilience of its people",
    "ru": "Анджелина Джоли сделала трогательное признание о своем отношении к Камбодже",
@@ -590,10 +581,25 @@
    "src": "Angkor Glowing Night to illuminate Siem Reap temples in December",
    "ru": "Древние храмы Ангкора бесплатно подсветят в рамках грандиозного ночного шоу",
    "at": "2026-11-20T20:00+07:00"
+  },
+  {
+   "src": "EDC announces 4 days of power cuts in Phnom Penh",
+   "ru": "Жителям Пномпеня стоит подготовиться к четырем дням отключений света",
+   "at": "2026-11-21T08:00+07:00"
+  },
+  {
+   "src": "Cambodia’s civil aviation sector continues to face tough times",
+   "ru": "Авиаотрасль Камбоджи переживает не лучшие времена из-за падения пассажиропотока",
+   "at": "2026-11-21T08:00+07:00"
+  },
+  {
+   "src": "Siem Reap police arrest wildlife smuggling suspect with 27 pythons",
+   "ru": "В Сиемреапе полиция перехватила контрабандиста с гигантской партией питонов",
+   "at": "2026-11-21T08:00+07:00"
   }
  ],
  "pinned_message_id": null,
- "last_run": "2026-11-20T20:00+07:00",
+ "last_run": "2026-11-21T08:00+07:00",
  "slots_done": [
   "2026-11-11 20:00",
   "2026-11-12 08:00",
@@ -622,6 +628,7 @@
   "2026-11-19 20:00",
   "2026-11-20 08:00",
   "2026-11-20 14:00",
-  "2026-11-20 20:00"
+  "2026-11-20 20:00",
+  "2026-11-21 08:00"
  ]
 }
