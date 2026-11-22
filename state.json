@@ -1,11 +1,5 @@
 {
  "posted": {
-  "https://t.me/khmertimesbreakingnews/98903": "2026-11-12T20:00+07:00",
-  "https://khmertimeskh.com/502055735/phnom-penhs-3-6-million-vehicles-and-nearly-2000-high-rises-highlight-need-for-compulsory-insurance": "2026-11-12T20:00+07:00",
-  "https://t.me/thephnompenhpost/34720": "2026-11-12T20:00+07:00",
-  "https://phnompenhpost.com/national/worst-of-both-worlds-despite-record-storms-cambodia-facing-drought": "2026-11-12T20:00+07:00",
-  "https://khmertimeskh.com/502055247/october-blazes-torch-33-homes": "2026-11-12T20:00+07:00",
-  "https://t.me/khmertimesbreakingnews/98866": "2026-11-12T20:00+07:00",
   "https://phnompenhpost.com/national/angelina-jolie-describes-cambodia-as-home-praises-resilience-of-its-people": "2026-11-13T03:29+07:00",
   "https://t.me/thephnompenhpost/34725": "2026-11-13T03:29+07:00",
   "https://t.me/khmertimesbreakingnews/98861": "2026-11-13T03:29+07:00",
@@ -188,24 +182,15 @@
   "https://khmertimeskh.com?p=2061329": "2026-11-22T14:00+07:00",
   "https://t.me/khmertimesbreakingnews/99464": "2026-11-22T14:00+07:00",
   "https://t.me/khmertimesbreakingnews/99457": "2026-11-22T14:00+07:00",
-  "https://khmertimeskh.com?p=2061281": "2026-11-22T14:00+07:00"
+  "https://khmertimeskh.com?p=2061281": "2026-11-22T14:00+07:00",
+  "https://khmertimeskh.com?p=2061351": "2026-11-22T20:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99470": "2026-11-22T20:00+07:00",
+  "https://phnompenhpost.com/national/former-cultural-village-finds-a-new-role-as-siem-reaps-angkor-green-gardens": "2026-11-22T20:00+07:00",
+  "https://t.me/thephnompenhpost/34969": "2026-11-22T20:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99475": "2026-11-22T20:00+07:00",
+  "https://khmertimeskh.com?p=2061371": "2026-11-22T20:00+07:00"
  },
  "recent": [
-  {
-   "src": "Man arrested over ransom kidnapping, murder of five-year-old girl",
-   "ru": "Ужасная трагедия в провинции Кандаль: похититель утопил пятилетнего ребёнка ради выкупа",
-   "at": "2026-11-14T03:04+07:00"
-  },
-  {
-   "src": "Authorities looking forward to West Mebon Temple inauguration after 14-year restoration",
-   "ru": "Храм Западный Мебон открывают после 14 лет реставрации: ждут короля и Макрона",
-   "at": "2026-11-14T03:04+07:00"
-  },
-  {
-   "src": "Police arrest nine men over fatal shooting in oil theft case",
-   "ru": "Задержание в Кампонгспы: девять человек арестованы после смертельного нападения",
-   "at": "2026-11-14T03:05+07:00"
-  },
   {
    "src": "Road incidents kill 50, injure 126 across Cambodia in early November",
    "ru": "Смертоносное начало ноября: десятки погибших в дорожных авариях по всей Камбодже",
@@ -590,12 +575,26 @@
    "src": "Retail fuel prices drop again as global oil eases",
    "ru": "Приятные новости для водителей в Камбодже снова снизились цены на топливо",
    "at": "2026-11-22T14:00+07:00"
+  },
+  {
+   "src": "Drug suspect caught with over 15kg of ‘ice’",
+   "ru": "Крупный улов полиции в Баттамбанге: у контрабандиста изъяли огромную партию льда",
+   "at": "2026-11-22T20:00+07:00"
+  },
+  {
+   "src": "Former Cultural Village finds a new role as Siem Reap’s Angkor Green Gardens",
+   "ru": "Знаменитая Культурная деревня в Сиемреапе открылась в совершенно новом формате",
+   "at": "2026-11-22T20:00+07:00"
+  },
+  {
+   "src": "Thai PM rejects UNCLOS conciliation midway through talks",
+   "ru": "Премьер Таиланда выступил с жестким предупреждением в адрес Пномпеня",
+   "at": "2026-11-22T20:00+07:00"
   }
  ],
  "pinned_message_id": null,
- "last_run": "2026-11-22T14:00+07:00",
+ "last_run": "2026-11-22T20:00+07:00",
  "slots_done": [
-  "2026-11-12 20:00",
   "2026-11-13 08:00",
   "2026-11-13 14:00",
   "2026-11-13 20:00",
@@ -624,6 +623,7 @@
   "2026-11-21 14:00",
   "2026-11-21 20:00",
   "2026-11-22 08:00",
-  "2026-11-22 14:00"
+  "2026-11-22 14:00",
+  "2026-11-22 20:00"
  ]
 }
