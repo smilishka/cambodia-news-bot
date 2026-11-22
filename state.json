@@ -1,11 +1,5 @@
 {
  "posted": {
-  "https://khmertimeskh.com/502055277/kingdom-deports-245-chinese-indonesians-after-anti-scam-dragnet": "2026-11-12T14:00+07:00",
-  "https://t.me/khmertimesbreakingnews/98856": "2026-11-12T14:00+07:00",
-  "https://phnompenhpost.com/national/russians-ink-deal-to-develop-cambodia-tour-packages": "2026-11-12T14:00+07:00",
-  "https://t.me/thephnompenhpost/34722": "2026-11-12T14:00+07:00",
-  "https://khmertimeskh.com/502055348/phnom-penh-prepares-for-20th-francophonie-summit": "2026-11-12T14:00+07:00",
-  "https://t.me/khmertimesbreakingnews/98847": "2026-11-12T14:00+07:00",
   "https://t.me/khmertimesbreakingnews/98903": "2026-11-12T20:00+07:00",
   "https://khmertimeskh.com/502055735/phnom-penhs-3-6-million-vehicles-and-nearly-2000-high-rises-highlight-need-for-compulsory-insurance": "2026-11-12T20:00+07:00",
   "https://t.me/thephnompenhpost/34720": "2026-11-12T20:00+07:00",
@@ -188,24 +182,15 @@
   "https://t.me/khmertimesbreakingnews/99437": "2026-11-22T08:00+07:00",
   "https://khmertimeskh.com?p=2060993": "2026-11-22T08:00+07:00",
   "https://khmertimeskh.com?p=2061030": "2026-11-22T08:00+07:00",
-  "https://t.me/khmertimesbreakingnews/99442": "2026-11-22T08:00+07:00"
+  "https://t.me/khmertimesbreakingnews/99442": "2026-11-22T08:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99463": "2026-11-22T14:00+07:00",
+  "https://khmertimeskh.com?p=2061324": "2026-11-22T14:00+07:00",
+  "https://khmertimeskh.com?p=2061329": "2026-11-22T14:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99464": "2026-11-22T14:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99457": "2026-11-22T14:00+07:00",
+  "https://khmertimeskh.com?p=2061281": "2026-11-22T14:00+07:00"
  },
  "recent": [
-  {
-   "src": "Wownow Delivery App Removed From Apple App Store, Online Payments Suspended",
-   "ru": "Популярный сервис доставки Wownow исчез из App Store после санкций США",
-   "at": "2026-11-13T20:00+07:00"
-  },
-  {
-   "src": "Cambodia could hit its 2030 EV target in 2027. Who will fix the cars?",
-   "ru": "Камбоджа может досрочно выполнить план по электромобилям уже к 2027 году",
-   "at": "2026-11-13T20:00+07:00"
-  },
-  {
-   "src": "Cambodia deports 36 Vietnamese nationals over illegal stay and employment",
-   "ru": "Из Камбоджи депортировали десятки граждан Вьетнама за нелегальное пребывание",
-   "at": "2026-11-13T20:00+07:00"
-  },
   {
    "src": "Man arrested over ransom kidnapping, murder of five-year-old girl",
    "ru": "Ужасная трагедия в провинции Кандаль: похититель утопил пятилетнего ребёнка ради выкупа",
@@ -590,12 +575,26 @@
    "src": "Cambodia forecast to remain dry nationwide through November 23",
    "ru": "Синоптики предупредили о сухой погоде без единого дождя по всей Камбодже",
    "at": "2026-11-22T08:00+07:00"
+  },
+  {
+   "src": "Cambodia records first monkeypox case in over two years",
+   "ru": "В Камбодже зафиксировали первый за два с лишним года случай оспы обезьян",
+   "at": "2026-11-22T14:00+07:00"
+  },
+  {
+   "src": "11 foreigners arrested in Sihanoukville crime crackdown",
+   "ru": "Масштабный рейд в Сиануквиле закончился арестом 11 иностранных граждан",
+   "at": "2026-11-22T14:00+07:00"
+  },
+  {
+   "src": "Retail fuel prices drop again as global oil eases",
+   "ru": "Приятные новости для водителей в Камбодже снова снизились цены на топливо",
+   "at": "2026-11-22T14:00+07:00"
   }
  ],
  "pinned_message_id": null,
- "last_run": "2026-11-22T08:00+07:00",
+ "last_run": "2026-11-22T14:00+07:00",
  "slots_done": [
-  "2026-11-12 14:00",
   "2026-11-12 20:00",
   "2026-11-13 08:00",
   "2026-11-13 14:00",
@@ -624,6 +623,7 @@
   "2026-11-21 08:00",
   "2026-11-21 14:00",
   "2026-11-21 20:00",
-  "2026-11-22 08:00"
+  "2026-11-22 08:00",
+  "2026-11-22 14:00"
  ]
 }
