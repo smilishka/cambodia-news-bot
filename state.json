@@ -1,17 +1,5 @@
 {
  "posted": {
-  "https://phnompenhpost.com/national/angelina-jolie-describes-cambodia-as-home-praises-resilience-of-its-people": "2026-11-13T03:29+07:00",
-  "https://t.me/thephnompenhpost/34725": "2026-11-13T03:29+07:00",
-  "https://t.me/khmertimesbreakingnews/98861": "2026-11-13T03:29+07:00",
-  "https://khmertimeskh.com/502055187/cambodia-ranks-138th-globally-in-illicit-trade-vulnerability-index": "2026-11-13T03:29+07:00",
-  "https://khmertimeskh.com/502055461/500-strike-over-unpaid-wages-in-kampong-speu": "2026-11-13T03:29+07:00",
-  "https://t.me/khmertimesbreakingnews/98855": "2026-11-13T03:29+07:00",
-  "https://khmertimeskh.com/502055320/cambodia-un-and-eu-urge-action-on-online-exploitation": "2026-11-13T08:00+07:00",
-  "https://t.me/khmertimesbreakingnews/98868": "2026-11-13T08:00+07:00",
-  "https://khmertimeskh.com/502055610/metfone-officially-launches-methealth-helping-cambodians-access-quality-healthcare-services": "2026-11-13T08:00+07:00",
-  "https://t.me/khmertimesbreakingnews/98864": "2026-11-13T08:00+07:00",
-  "https://t.me/khmertimesbreakingnews/98853": "2026-11-13T08:00+07:00",
-  "https://khmertimeskh.com/502055441/drug-addicts-arrested-in-phnom-penh-2": "2026-11-13T08:00+07:00",
   "https://t.me/khmertimesbreakingnews/98941": "2026-11-13T14:00+07:00",
   "https://khmertimeskh.com/502056261/food-delivery-driver-arrested-for-sexual-assault-in-phnom-penh": "2026-11-13T14:00+07:00",
   "https://t.me/khmertimesbreakingnews/98919": "2026-11-13T14:00+07:00",
@@ -188,24 +176,15 @@
   "https://phnompenhpost.com/national/former-cultural-village-finds-a-new-role-as-siem-reaps-angkor-green-gardens": "2026-11-22T20:00+07:00",
   "https://t.me/thephnompenhpost/34969": "2026-11-22T20:00+07:00",
   "https://t.me/khmertimesbreakingnews/99475": "2026-11-22T20:00+07:00",
-  "https://khmertimeskh.com?p=2061371": "2026-11-22T20:00+07:00"
+  "https://khmertimeskh.com?p=2061371": "2026-11-22T20:00+07:00",
+  "https://khmertimeskh.com?p=2061532": "2026-11-23T08:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99483": "2026-11-23T08:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99471": "2026-11-23T08:00+07:00",
+  "https://khmertimeskh.com?p=2061357": "2026-11-23T08:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99458": "2026-11-23T08:00+07:00",
+  "https://khmertimeskh.com?p=2061288": "2026-11-23T08:00+07:00"
  },
  "recent": [
-  {
-   "src": "Road incidents kill 50, injure 126 across Cambodia in early November",
-   "ru": "Смертоносное начало ноября: десятки погибших в дорожных авариях по всей Камбодже",
-   "at": "2026-11-14T08:00+07:00"
-  },
-  {
-   "src": "King Sihamoni grants Cambodian citizenship to US humanitarian after three decades of service",
-   "ru": "Американский гуманитарий получил гражданство Камбоджи за три десятилетия помощи детям",
-   "at": "2026-11-14T08:00+07:00"
-  },
-  {
-   "src": "Scattered rains forecast across Cambodia",
-   "ru": "Синоптики предупреждают о дождях по всей Камбодже из-за северо-восточного муссона",
-   "at": "2026-11-14T08:00+07:00"
-  },
   {
    "src": "Fugitive Korean CEO nabbed in Cambodia after eight years on the lam",
    "ru": "Восемь лет скрывался в Камбодже: беглый топ-менеджер LG задержан",
@@ -590,12 +569,26 @@
    "src": "Thai PM rejects UNCLOS conciliation midway through talks",
    "ru": "Премьер Таиланда выступил с жестким предупреждением в адрес Пномпеня",
    "at": "2026-11-22T20:00+07:00"
+  },
+  {
+   "src": "Cambodia to celebrate this year’s Water Festival today",
+   "ru": "В Камбодже начался Водный фестиваль, но главный праздник в Пномпене отменили",
+   "at": "2026-11-23T08:00+07:00"
+  },
+  {
+   "src": "Two suspects arrested over online cigarette scam",
+   "ru": "Продажа сигарет в сети оказалась ловушкой: в Пномпене поймали интернет-мошенников",
+   "at": "2026-11-23T08:00+07:00"
+  },
+  {
+   "src": "PM says border closure with Thailand has not crippled Cambodia’s production and agriculture",
+   "ru": "Закрытие границ с Таиландом не смогло разрушить экономику Камбоджи",
+   "at": "2026-11-23T08:00+07:00"
   }
  ],
  "pinned_message_id": null,
- "last_run": "2026-11-22T20:00+07:00",
+ "last_run": "2026-11-23T08:00+07:00",
  "slots_done": [
-  "2026-11-13 08:00",
   "2026-11-13 14:00",
   "2026-11-13 20:00",
   "2026-11-14 08:00",
@@ -624,6 +617,7 @@
   "2026-11-21 20:00",
   "2026-11-22 08:00",
   "2026-11-22 14:00",
-  "2026-11-22 20:00"
+  "2026-11-22 20:00",
+  "2026-11-23 08:00"
  ]
 }
