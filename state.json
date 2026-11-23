@@ -1,10 +1,5 @@
 {
  "posted": {
-  "https://cambojanews.com/wownow-delivery-app-removed-from-apple-app-store-online-payments-suspended": "2026-11-13T20:00+07:00",
-  "https://khmertimeskh.com/502055888/cambodia-could-hit-its-2030-ev-target-in-2027-who-will-fix-the-cars": "2026-11-13T20:00+07:00",
-  "https://t.me/khmertimesbreakingnews/98936": "2026-11-13T20:00+07:00",
-  "https://t.me/khmertimesbreakingnews/98943": "2026-11-13T20:00+07:00",
-  "https://khmertimeskh.com/502056356/cambodia-deports-36-vietnamese-nationals-over-illegal-stay-and-employment": "2026-11-13T20:00+07:00",
   "https://t.me/thephnompenhpost/34741": "2026-11-14T03:04+07:00",
   "https://phnompenhpost.com/national/man-arrested-over-ransom-kidnapping-murder-of-five-year-old-girl": "2026-11-14T03:04+07:00",
   "https://phnompenhpost.com/national/authorities-looking-forward-to-west-mebon-temple-inauguration-after-14-year-restoration": "2026-11-14T03:04+07:00",
@@ -182,24 +177,15 @@
   "https://t.me/khmertimesbreakingnews/99499": "2026-11-23T14:00+07:00",
   "https://khmertimeskh.com?p=2061621": "2026-11-23T14:00+07:00",
   "https://t.me/khmertimesbreakingnews/99503": "2026-11-23T14:00+07:00",
-  "https://khmertimeskh.com?p=2061710": "2026-11-23T14:00+07:00"
+  "https://khmertimeskh.com?p=2061710": "2026-11-23T14:00+07:00",
+  "https://t.me/thephnompenhpost/34975": "2026-11-23T20:00+07:00",
+  "https://phnompenhpost.com/national/senior-kampot-police-officer-charged-over-874kg-ketamine-haul-money-laundering": "2026-11-23T20:00+07:00",
+  "https://khmertimeskh.com?p=2061655": "2026-11-23T20:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99502": "2026-11-23T20:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99508": "2026-11-23T20:00+07:00",
+  "https://khmertimeskh.com?p=2061758": "2026-11-23T20:00+07:00"
  },
  "recent": [
-  {
-   "src": "VIDEO: French President Macron arrives in Phnom Penh ahead of Francophonie Summit",
-   "ru": "Эммануэль Макрон уже в Камбодже: президент Франции прибыл в Пномпень",
-   "at": "2026-11-14T20:00+07:00"
-  },
-  {
-   "src": "Battambang man arrested for murdering 5-year-old after extortion attempt",
-   "ru": "Трагедия в Баттамбанге: мужчина утопил пятилетнюю дочь своих друзей",
-   "at": "2026-11-14T20:00+07:00"
-  },
-  {
-   "src": "Young designers showcase affordable cooling homes in national competition",
-   "ru": "Защита от жары и экономия: молодые архитекторы создали доступные эко-дома",
-   "at": "2026-11-14T20:00+07:00"
-  },
   {
    "src": "Opposition party members arrested over forgery",
    "ru": "В Камбодже арестовали членов оппозиционной партии за подделку документов",
@@ -584,12 +570,26 @@
    "src": "West Mebon Temple enhances visitor experience with new tourism facilities and routes",
    "ru": "Древний храм Западный Мебон в Сиемреапе открылся после реставрации",
    "at": "2026-11-23T14:00+07:00"
+  },
+  {
+   "src": "Senior Kampot police officer charged over 874kg ketamine haul, money laundering",
+   "ru": "Замглавы полиции Кампота арестован за рекордную партию кетамина",
+   "at": "2026-11-23T20:00+07:00"
+  },
+  {
+   "src": "Korean convenience store plans 500 outlets in Cambodia in 10 years",
+   "ru": "Южнокорейская сеть магазинов захватит рынок Камбоджи",
+   "at": "2026-11-23T20:00+07:00"
+  },
+  {
+   "src": "Banteay Srei recognised as smoke-free tourism destination",
+   "ru": "Популярный у туристов район стал свободен от табачного дыма",
+   "at": "2026-11-23T20:00+07:00"
   }
  ],
  "pinned_message_id": null,
- "last_run": "2026-11-23T14:00+07:00",
+ "last_run": "2026-11-23T20:00+07:00",
  "slots_done": [
-  "2026-11-13 20:00",
   "2026-11-14 08:00",
   "2026-11-14 14:00",
   "2026-11-14 20:00",
@@ -618,6 +618,7 @@
   "2026-11-22 14:00",
   "2026-11-22 20:00",
   "2026-11-23 08:00",
-  "2026-11-23 14:00"
+  "2026-11-23 14:00",
+  "2026-11-23 20:00"
  ]
 }
