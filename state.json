@@ -1,11 +1,5 @@
 {
  "posted": {
-  "https://t.me/khmertimesbreakingnews/98941": "2026-11-13T14:00+07:00",
-  "https://khmertimeskh.com/502056261/food-delivery-driver-arrested-for-sexual-assault-in-phnom-penh": "2026-11-13T14:00+07:00",
-  "https://t.me/khmertimesbreakingnews/98919": "2026-11-13T14:00+07:00",
-  "https://khmertimeskh.com/502055896/haikou-phnom-penh-direct-flights-set-for-december-12": "2026-11-13T14:00+07:00",
-  "https://t.me/khmertimesbreakingnews/98909": "2026-11-13T14:00+07:00",
-  "https://khmertimeskh.com/502055898/cambodia-hosts-first-francophone-business-forum-in-southeast-asia": "2026-11-13T14:00+07:00",
   "https://cambojanews.com/wownow-delivery-app-removed-from-apple-app-store-online-payments-suspended": "2026-11-13T20:00+07:00",
   "https://khmertimeskh.com/502055888/cambodia-could-hit-its-2030-ev-target-in-2027-who-will-fix-the-cars": "2026-11-13T20:00+07:00",
   "https://t.me/khmertimesbreakingnews/98936": "2026-11-13T20:00+07:00",
@@ -182,24 +176,15 @@
   "https://t.me/khmertimesbreakingnews/99471": "2026-11-23T08:00+07:00",
   "https://khmertimeskh.com?p=2061357": "2026-11-23T08:00+07:00",
   "https://t.me/khmertimesbreakingnews/99458": "2026-11-23T08:00+07:00",
-  "https://khmertimeskh.com?p=2061288": "2026-11-23T08:00+07:00"
+  "https://khmertimeskh.com?p=2061288": "2026-11-23T08:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99492": "2026-11-23T14:00+07:00",
+  "https://khmertimeskh.com?p=2061585": "2026-11-23T14:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99499": "2026-11-23T14:00+07:00",
+  "https://khmertimeskh.com?p=2061621": "2026-11-23T14:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99503": "2026-11-23T14:00+07:00",
+  "https://khmertimeskh.com?p=2061710": "2026-11-23T14:00+07:00"
  },
  "recent": [
-  {
-   "src": "Fugitive Korean CEO nabbed in Cambodia after eight years on the lam",
-   "ru": "Восемь лет скрывался в Камбодже: беглый топ-менеджер LG задержан",
-   "at": "2026-11-14T14:00+07:00"
-  },
-  {
-   "src": "VIDEO: Francophonie Village showcases 73 country pavilions",
-   "ru": "В парке Ват Ботум открылась масштабная деревня с павильонами 73 стран",
-   "at": "2026-11-14T14:00+07:00"
-  },
-  {
-   "src": "Cambodia Targets 72% Renewable Energy Capacity by 2035, Minister Says",
-   "ru": "Камбоджа готовится к масштабному зеленому переходу в энергетике",
-   "at": "2026-11-14T14:00+07:00"
-  },
   {
    "src": "VIDEO: French President Macron arrives in Phnom Penh ahead of Francophonie Summit",
    "ru": "Эммануэль Макрон уже в Камбодже: президент Франции прибыл в Пномпень",
@@ -584,12 +569,26 @@
    "src": "PM says border closure with Thailand has not crippled Cambodia’s production and agriculture",
    "ru": "Закрытие границ с Таиландом не смогло разрушить экономику Камбоджи",
    "at": "2026-11-23T08:00+07:00"
+  },
+  {
+   "src": "Foreigner fire shots at Sihanoukville café, then shoots himself",
+   "ru": "Иностранец устроил стрельбу у кафе в Сиануквиле и покончил с собой",
+   "at": "2026-11-23T14:00+07:00"
+  },
+  {
+   "src": "Russian Embassy in Cambodia responds to ‘anti-Russian’ article published by Cambodianess",
+   "ru": "Посольство России в Камбодже ответило на скандальную статью в СМИ",
+   "at": "2026-11-23T14:00+07:00"
+  },
+  {
+   "src": "West Mebon Temple enhances visitor experience with new tourism facilities and routes",
+   "ru": "Древний храм Западный Мебон в Сиемреапе открылся после реставрации",
+   "at": "2026-11-23T14:00+07:00"
   }
  ],
  "pinned_message_id": null,
- "last_run": "2026-11-23T08:00+07:00",
+ "last_run": "2026-11-23T14:00+07:00",
  "slots_done": [
-  "2026-11-13 14:00",
   "2026-11-13 20:00",
   "2026-11-14 08:00",
   "2026-11-14 14:00",
@@ -618,6 +617,7 @@
   "2026-11-22 08:00",
   "2026-11-22 14:00",
   "2026-11-22 20:00",
-  "2026-11-23 08:00"
+  "2026-11-23 08:00",
+  "2026-11-23 14:00"
  ]
 }
