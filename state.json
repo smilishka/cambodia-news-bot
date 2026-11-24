@@ -177,24 +177,15 @@
   "https://t.me/khmertimesbreakingnews/99518": "2026-11-24T14:00+07:00",
   "https://khmertimeskh.com?p=2061828": "2026-11-24T14:00+07:00",
   "https://t.me/khmertimesbreakingnews/99510": "2026-11-24T14:00+07:00",
-  "https://khmertimeskh.com?p=2061781": "2026-11-24T14:00+07:00"
+  "https://khmertimeskh.com?p=2061781": "2026-11-24T14:00+07:00",
+  "https://phnompenhpost.com/national/cambodia-protests-thai-military-construction-unauthorised-tours-of-occupied-territory": "2026-11-24T17:28+07:00",
+  "https://t.me/thephnompenhpost/34979": "2026-11-24T17:28+07:00",
+  "https://khmertimeskh.com/502061823/driver-arrested-after-phnom-penh-crash-injures-two": "2026-11-24T17:28+07:00",
+  "https://t.me/khmertimesbreakingnews/99517": "2026-11-24T17:28+07:00",
+  "https://t.me/thephnompenhpost/34974": "2026-11-24T17:28+07:00",
+  "https://phnompenhpost.com/national/reservoirs-nearly-full-as-authorities-prepare-to-counter-el-nino": "2026-11-24T17:28+07:00"
  },
  "recent": [
-  {
-   "src": "Disappointment as Cambodia places second to last in Eurovision Asia",
-   "ru": "Камбоджа потерпела неудачу на первом в истории конкурсе Евровидение Азия",
-   "at": "2026-11-15T20:00+07:00"
-  },
-  {
-   "src": "Cambodia and Vietnam sign 2027 pact to combat cyber scams",
-   "ru": "Страны АСЕАН поддержали призыв Камбоджи к миру на границе с Таиландом",
-   "at": "2026-11-15T20:00+07:00"
-  },
-  {
-   "src": "Macron calls for investigation into Bangkok killing of opposition politician",
-   "ru": "Эммануэль Макрон потребовал расследовать убийство камбоджийского политика в Бангкоке",
-   "at": "2026-11-16T08:00+07:00"
-  },
   {
    "src": "France-Cambodia Business Forum 2026 (FAFC)",
    "ru": "В Пномпене пройдет крупный бизнес-форум Франции и Камбоджи",
@@ -579,12 +570,26 @@
    "src": "Cambodia strongly protests Thailand’s continued violations of its sovereignty and territorial integrity",
    "ru": "Камбоджа выразила жесткий протест из-за действий соседей",
    "at": "2026-11-24T14:00+07:00"
+  },
+  {
+   "src": "Cambodia protests Thai military construction, unauthorised tours of occupied territory",
+   "ru": "Камбоджа выразила жесткий протест военным Таиланда из-за действий на границе",
+   "at": "2026-11-24T17:28+07:00"
+  },
+  {
+   "src": "Driver arrested after Phnom Penh crash injures two",
+   "ru": "В Пномпене водитель на полной скорости сбил людей и попытался сбежать с места аварии",
+   "at": "2026-11-24T17:28+07:00"
+  },
+  {
+   "src": "Reservoirs nearly full as authorities prepare to counter El Niño",
+   "ru": "Камбоджа готовится к сильнейшей засухе и рекордной жаре из-за явления Эль-Ниньо",
+   "at": "2026-11-24T17:28+07:00"
   }
  ],
  "pinned_message_id": null,
- "last_run": "2026-11-24T14:00+07:00",
+ "last_run": "2026-11-24T17:28+07:00",
  "slots_done": [
-  "2026-11-14 20:00",
   "2026-11-15 08:00",
   "2026-11-15 14:00",
   "2026-11-15 20:00",
@@ -613,6 +618,7 @@
   "2026-11-23 14:00",
   "2026-11-23 20:00",
   "2026-11-24 08:00",
-  "2026-11-24 14:00"
+  "2026-11-24 14:00",
+  "2026-11-24 20:00"
  ]
 }
