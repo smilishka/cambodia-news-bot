@@ -1,11 +1,5 @@
 {
  "posted": {
-  "https://khmertimeskh.com?p=2056790": "2026-11-14T20:00+07:00",
-  "https://t.me/khmertimesbreakingnews/99011": "2026-11-14T20:00+07:00",
-  "https://t.me/khmertimesbreakingnews/98993": "2026-11-14T20:00+07:00",
-  "https://khmertimeskh.com?p=2056589": "2026-11-14T20:00+07:00",
-  "https://khmertimeskh.com?p=2056798": "2026-11-14T20:00+07:00",
-  "https://t.me/khmertimesbreakingnews/99013": "2026-11-14T20:00+07:00",
   "https://t.me/khmertimesbreakingnews/98990": "2026-11-15T08:00+07:00",
   "https://khmertimeskh.com?p=2056567": "2026-11-15T08:00+07:00",
   "https://khmertimeskh.com?p=2056268": "2026-11-15T08:00+07:00",
@@ -183,24 +177,15 @@
   "https://khmertimeskh.com/502061823/driver-arrested-after-phnom-penh-crash-injures-two": "2026-11-24T17:28+07:00",
   "https://t.me/khmertimesbreakingnews/99517": "2026-11-24T17:28+07:00",
   "https://t.me/thephnompenhpost/34974": "2026-11-24T17:28+07:00",
-  "https://phnompenhpost.com/national/reservoirs-nearly-full-as-authorities-prepare-to-counter-el-nino": "2026-11-24T17:28+07:00"
+  "https://phnompenhpost.com/national/reservoirs-nearly-full-as-authorities-prepare-to-counter-el-nino": "2026-11-24T17:28+07:00",
+  "https://phnompenhpost.com/national/live-firing-expected-as-cambodia-china-stage-15-day-golden-dragon-military-exercises": "2026-11-25T05:47+07:00",
+  "https://t.me/thephnompenhpost/34981": "2026-11-25T05:47+07:00",
+  "https://t.me/thephnompenhpost/34977": "2026-11-25T05:47+07:00",
+  "https://phnompenhpost.com/national/us-proposes-fingerprint-digitisation-partnership": "2026-11-25T05:47+07:00",
+  "https://khmertimeskh.com?p=2061859": "2026-11-25T05:47+07:00",
+  "https://t.me/khmertimesbreakingnews/99520": "2026-11-25T05:47+07:00"
  },
  "recent": [
-  {
-   "src": "France-Cambodia Business Forum 2026 (FAFC)",
-   "ru": "В Пномпене пройдет крупный бизнес-форум Франции и Камбоджи",
-   "at": "2026-11-16T08:00+07:00"
-  },
-  {
-   "src": "Despite Anutin claiming support for bilateral mechanisms, Thai JBC team yet to resume work",
-   "ru": "Таиланд затягивает решение по границам с Камбоджей вопреки собственным заявлениям",
-   "at": "2026-11-16T08:00+07:00"
-  },
-  {
-   "src": "Foreigners arrested for drugs, weapons possession in Phnom Penh",
-   "ru": "Иностранцев с оружием и наркотиками жестко задержали около аэропорта Пномпеня",
-   "at": "2026-11-16T14:00+07:00"
-  },
   {
    "src": "The Three-Pointed Star returns! RMA Cambodia Appointed as the Official Sole Authorised Importer and Distributor of Mercedes-Benz Vehicles in Cambodia",
    "ru": "Легендарные авто Mercedes-Benz официально возвращаются на авторынок Камбоджи",
@@ -585,12 +570,26 @@
    "src": "Reservoirs nearly full as authorities prepare to counter El Niño",
    "ru": "Камбоджа готовится к сильнейшей засухе и рекордной жаре из-за явления Эль-Ниньо",
    "at": "2026-11-24T17:28+07:00"
+  },
+  {
+   "src": "Live firing expected as Cambodia, China stage 15-day Golden Dragon military exercises",
+   "ru": "Камбоджа и Китай начинают масштабные учения со стрельбами и дронами",
+   "at": "2026-11-25T05:47+07:00"
+  },
+  {
+   "src": "US proposes fingerprint digitisation partnership",
+   "ru": "США предлагают оцифровать все отпечатки пальцев в Камбодже",
+   "at": "2026-11-25T05:47+07:00"
+  },
+  {
+   "src": "Official held after high-speed roundabout driving in Stung Treng",
+   "ru": "Чиновник устроил опасные гонки на кольце и попал за решетку",
+   "at": "2026-11-25T05:47+07:00"
   }
  ],
  "pinned_message_id": null,
- "last_run": "2026-11-24T17:28+07:00",
+ "last_run": "2026-11-25T05:47+07:00",
  "slots_done": [
-  "2026-11-15 08:00",
   "2026-11-15 14:00",
   "2026-11-15 20:00",
   "2026-11-16 08:00",
@@ -619,6 +618,7 @@
   "2026-11-23 20:00",
   "2026-11-24 08:00",
   "2026-11-24 14:00",
-  "2026-11-24 20:00"
+  "2026-11-24 20:00",
+  "2026-11-25 08:00"
  ]
 }
