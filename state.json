@@ -1,11 +1,5 @@
 {
  "posted": {
-  "https://t.me/khmertimesbreakingnews/99034": "2026-11-15T20:00+07:00",
-  "https://khmertimeskh.com?p=2057011": "2026-11-15T20:00+07:00",
-  "https://khmertimeskh.com?p=2057021": "2026-11-15T20:00+07:00",
-  "https://t.me/khmertimesbreakingnews/99037": "2026-11-15T20:00+07:00",
-  "https://khmertimeskh.com/category/national": "2026-11-15T20:00+07:00",
-  "https://t.me/khmertimesbreakingnews/99022": "2026-11-15T20:00+07:00",
   "https://t.me/thephnompenhpost/34768": "2026-11-16T08:00+07:00",
   "https://phnompenhpost.com/national/macron-calls-for-investigation-into-bangkok-killing-of-opposition-politician": "2026-11-16T08:00+07:00",
   "https://khmertimeskh.com?p=2057168": "2026-11-16T08:00+07:00",
@@ -179,24 +173,15 @@
   "https://t.me/khmertimesbreakingnews/99536": "2026-11-25T14:00+07:00",
   "https://khmertimeskh.com?p=2062195": "2026-11-25T14:00+07:00",
   "https://t.me/khmertimesbreakingnews/99549": "2026-11-25T14:00+07:00",
-  "https://khmertimeskh.com/502062129/maritime-traffic-restricted-off-koh-rong-and-koh-tang-for-golden-dragon-drills": "2026-11-25T14:00+07:00"
+  "https://khmertimeskh.com/502062129/maritime-traffic-restricted-off-koh-rong-and-koh-tang-for-golden-dragon-drills": "2026-11-25T14:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99558": "2026-11-25T20:00+07:00",
+  "https://khmertimeskh.com/502062092/friends-appeal-for-help-to-find-irishman-missing-in-phnom-penh": "2026-11-25T20:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99564": "2026-11-25T20:00+07:00",
+  "https://khmertimeskh.com?p=2062356": "2026-11-25T20:00+07:00",
+  "https://khmertimeskh.com/502062141/police-arrest-16-over-armed-robbery-and-gang-violence-in-battambang": "2026-11-25T20:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99547": "2026-11-25T20:00+07:00"
  },
  "recent": [
-  {
-   "src": "Cambodia and Vietnam sign new security pact",
-   "ru": "Камбоджа и Вьетнам объединяют силы для жесткой борьбы с онлайн-мошенниками",
-   "at": "2026-11-16T20:00+07:00"
-  },
-  {
-   "src": "SERC, CSX team up with banks to simplify trading setup",
-   "ru": "Инвестировать в Камбодже стало проще благодаря новому соглашению биржи и банков",
-   "at": "2026-11-16T20:00+07:00"
-  },
-  {
-   "src": "Cambodia takes Bakong global with Japan and Rwanda integration",
-   "ru": "Камбоджийская платежная система Bakong выходит на мировой уровень",
-   "at": "2026-11-17T05:33+07:00"
-  },
   {
    "src": "France provides more than $200M in energy assistance to Cambodia, lays out hydropower plans",
    "ru": "Франция выделяет Камбодже сотни миллионов долларов на энергетику",
@@ -581,12 +566,26 @@
    "src": "Maritime traffic restricted off Koh Rong and Koh Tang for Golden Dragon drills",
    "ru": "Морские маневры с Китаем: у островов Ко Ронг и Ко Танг перекрыли воду",
    "at": "2026-11-25T14:00+07:00"
+  },
+  {
+   "src": "Friends appeal for help to find Irishman missing in Phnom Penh",
+   "ru": "Ирландец загадочно исчез в столице Камбоджи: друзья просят о помощи",
+   "at": "2026-11-25T20:00+07:00"
+  },
+  {
+   "src": "ABC issues statement on historical data exposure on former development fund website",
+   "ru": "Утечка данных в банковской сфере Камбоджи: хакеры добрались до сайта",
+   "at": "2026-11-25T20:00+07:00"
+  },
+  {
+   "src": "Police arrest 16 over armed robbery and gang violence in Battambang",
+   "ru": "Нападения на дорогах и бандитизм: в Баттамбанге задержаны 16 человек",
+   "at": "2026-11-25T20:00+07:00"
   }
  ],
  "pinned_message_id": null,
- "last_run": "2026-11-25T14:00+07:00",
+ "last_run": "2026-11-25T20:00+07:00",
  "slots_done": [
-  "2026-11-15 20:00",
   "2026-11-16 08:00",
   "2026-11-16 14:00",
   "2026-11-16 20:00",
@@ -615,6 +614,7 @@
   "2026-11-24 14:00",
   "2026-11-24 20:00",
   "2026-11-25 08:00",
-  "2026-11-25 14:00"
+  "2026-11-25 14:00",
+  "2026-11-25 20:00"
  ]
 }
