@@ -1,11 +1,5 @@
 {
  "posted": {
-  "https://t.me/khmertimesbreakingnews/99091": "2026-11-16T14:00+07:00",
-  "https://khmertimeskh.com/502057711/foreigners-arrested-for-drugs-weapons-possession-in-phnom-penh": "2026-11-16T14:00+07:00",
-  "https://phnompenhpost.com/socialite/the-three-pointed-star-returns-rma-cambodia-appointed-as-the-official-sole-authorised-importer-and-distributor-of-mercedes-benz-vehicles-in-cambodia": "2026-11-16T14:00+07:00",
-  "https://t.me/thephnompenhpost/34786": "2026-11-16T14:00+07:00",
-  "https://khmertimeskh.com/502057553/pursat-woman-jailed-over-tiktok-post": "2026-11-16T14:00+07:00",
-  "https://t.me/khmertimesbreakingnews/99092": "2026-11-16T14:00+07:00",
   "https://t.me/khmertimesbreakingnews/99141": "2026-11-16T20:00+07:00",
   "https://khmertimeskh.com?p=2057977": "2026-11-16T20:00+07:00",
   "https://t.me/khmertimesbreakingnews/99111": "2026-11-16T20:00+07:00",
@@ -179,24 +173,15 @@
   "https://khmertimeskh.com/category/national": "2026-11-26T08:00+07:00",
   "https://t.me/khmertimesbreakingnews/99575": "2026-11-26T08:00+07:00",
   "https://khmertimeskh.com/502062011/cruise-ship-star-seeker-makes-one-day-port-call-in-sihanoukville": "2026-11-26T08:00+07:00",
-  "https://t.me/khmertimesbreakingnews/99533": "2026-11-26T08:00+07:00"
+  "https://t.me/khmertimesbreakingnews/99533": "2026-11-26T08:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99584": "2026-11-26T14:00+07:00",
+  "https://khmertimeskh.com?p=2062485": "2026-11-26T14:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99583": "2026-11-26T14:00+07:00",
+  "https://khmertimeskh.com?p=2062480": "2026-11-26T14:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99532": "2026-11-26T14:00+07:00",
+  "https://khmertimeskh.com/502062000/fire-show-draws-throngs-of-tourists-on-koh-rong-island-on-the-first-day-of-water-festival": "2026-11-26T14:00+07:00"
  },
  "recent": [
-  {
-   "src": "Bassac River bridge construction reaches 87.8% completion",
-   "ru": "Строительство моста через реку Бассак вышло на финишную прямую",
-   "at": "2026-11-17T14:00+07:00"
-  },
-  {
-   "src": "Shot bro! Almost quarter million dogs vaccinated during the landmark rabies campaign",
-   "ru": "Почти четверть миллиона собак бесплатно привили от бешенства в Камбодже",
-   "at": "2026-11-17T14:00+07:00"
-  },
-  {
-   "src": "Pair of adult moon bears rescued from Koh Kong hotel",
-   "ru": "Пара взрослых лунных медведей спасена из отеля в Кох Конге",
-   "at": "2026-11-17T20:00+07:00"
-  },
   {
    "src": "NBC, Japan’s SBI launch pilot to expand access to tokenised government bonds",
    "ru": "NBC, японский SBI запускает пилотный проект по расширению доступа к токенизированным государственным облигациям",
@@ -581,12 +566,26 @@
    "src": "Cruise ship Star Seeker makes one-day port call in Sihanoukville",
    "ru": "Роскошный круизный лайнер Star Seeker привез сотни туристов в Сиануквиль",
    "at": "2026-11-26T08:00+07:00"
+  },
+  {
+   "src": "VIDEO: Police storm Phnom Penh house to subdue knife-wielding man",
+   "ru": "Вооруженный ножом мужчина забаррикадировался в доме в Пномпене",
+   "at": "2026-11-26T14:00+07:00"
+  },
+  {
+   "src": "US proposes new tariffs of up to 18% on Cambodia",
+   "ru": "США грозят ввести новые торговые пошлины до 18% против Камбоджи",
+   "at": "2026-11-26T14:00+07:00"
+  },
+  {
+   "src": "Fire show draws throngs of tourists on Koh Rong Island on the first day of Water Festival",
+   "ru": "Яркое огненное шоу собрали толпы туристов на острове Кох Ронг",
+   "at": "2026-11-26T14:00+07:00"
   }
  ],
  "pinned_message_id": null,
- "last_run": "2026-11-26T08:00+07:00",
+ "last_run": "2026-11-26T14:00+07:00",
  "slots_done": [
-  "2026-11-16 14:00",
   "2026-11-16 20:00",
   "2026-11-17 08:00",
   "2026-11-17 14:00",
@@ -615,6 +614,7 @@
   "2026-11-25 08:00",
   "2026-11-25 14:00",
   "2026-11-25 20:00",
-  "2026-11-26 08:00"
+  "2026-11-26 08:00",
+  "2026-11-26 14:00"
  ]
 }
