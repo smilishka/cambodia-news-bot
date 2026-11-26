@@ -1,11 +1,5 @@
 {
  "posted": {
-  "https://t.me/thephnompenhpost/34768": "2026-11-16T08:00+07:00",
-  "https://phnompenhpost.com/national/macron-calls-for-investigation-into-bangkok-killing-of-opposition-politician": "2026-11-16T08:00+07:00",
-  "https://khmertimeskh.com?p=2057168": "2026-11-16T08:00+07:00",
-  "https://t.me/khmertimesbreakingnews/99052": "2026-11-16T08:00+07:00",
-  "https://phnompenhpost.com/national/despite-anutin-claiming-support-for-bilateral-mechanisms-thai-jbc-team-yet-to-resume-work": "2026-11-16T08:00+07:00",
-  "https://t.me/thephnompenhpost/34767": "2026-11-16T08:00+07:00",
   "https://t.me/khmertimesbreakingnews/99091": "2026-11-16T14:00+07:00",
   "https://khmertimeskh.com/502057711/foreigners-arrested-for-drugs-weapons-possession-in-phnom-penh": "2026-11-16T14:00+07:00",
   "https://phnompenhpost.com/socialite/the-three-pointed-star-returns-rma-cambodia-appointed-as-the-official-sole-authorised-importer-and-distributor-of-mercedes-benz-vehicles-in-cambodia": "2026-11-16T14:00+07:00",
@@ -179,24 +173,15 @@
   "https://t.me/khmertimesbreakingnews/99564": "2026-11-25T20:00+07:00",
   "https://khmertimeskh.com?p=2062356": "2026-11-25T20:00+07:00",
   "https://khmertimeskh.com/502062141/police-arrest-16-over-armed-robbery-and-gang-violence-in-battambang": "2026-11-25T20:00+07:00",
-  "https://t.me/khmertimesbreakingnews/99547": "2026-11-25T20:00+07:00"
+  "https://t.me/khmertimesbreakingnews/99547": "2026-11-25T20:00+07:00",
+  "https://khmertimeskh.com?p=2062085": "2026-11-26T08:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99537": "2026-11-26T08:00+07:00",
+  "https://khmertimeskh.com/category/national": "2026-11-26T08:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99575": "2026-11-26T08:00+07:00",
+  "https://khmertimeskh.com/502062011/cruise-ship-star-seeker-makes-one-day-port-call-in-sihanoukville": "2026-11-26T08:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99533": "2026-11-26T08:00+07:00"
  },
  "recent": [
-  {
-   "src": "France provides more than $200M in energy assistance to Cambodia, lays out hydropower plans",
-   "ru": "Франция выделяет Камбодже сотни миллионов долларов на энергетику",
-   "at": "2026-11-17T05:33+07:00"
-  },
-  {
-   "src": "Cambodian securities exchange lists largest bond to date, at $99M",
-   "ru": "На фондовой бирже Камбоджи зафиксирован рекорд за всю историю ее работы",
-   "at": "2026-11-17T05:33+07:00"
-  },
-  {
-   "src": "Mother and 2 children die in Sihanoukville blaze",
-   "ru": "Страшный пожар в Сиануквиле унес жизни матери и двух маленьких детей",
-   "at": "2026-11-17T14:00+07:00"
-  },
   {
    "src": "Bassac River bridge construction reaches 87.8% completion",
    "ru": "Строительство моста через реку Бассак вышло на финишную прямую",
@@ -581,12 +566,26 @@
    "src": "Police arrest 16 over armed robbery and gang violence in Battambang",
    "ru": "Нападения на дорогах и бандитизм: в Баттамбанге задержаны 16 человек",
    "at": "2026-11-25T20:00+07:00"
+  },
+  {
+   "src": "Daytime drunk driver drives into dwelling",
+   "ru": "Пьяный водитель посреди дня врезался прямо в жилой дом в столице",
+   "at": "2026-11-26T08:00+07:00"
+  },
+  {
+   "src": "Over 200,000 crowd Phnom Penh for second festival night",
+   "ru": "Сотни тысяч человек заполнили улицы Пномпеня во вторую ночь Водного фестиваля",
+   "at": "2026-11-26T08:00+07:00"
+  },
+  {
+   "src": "Cruise ship Star Seeker makes one-day port call in Sihanoukville",
+   "ru": "Роскошный круизный лайнер Star Seeker привез сотни туристов в Сиануквиль",
+   "at": "2026-11-26T08:00+07:00"
   }
  ],
  "pinned_message_id": null,
- "last_run": "2026-11-25T20:00+07:00",
+ "last_run": "2026-11-26T08:00+07:00",
  "slots_done": [
-  "2026-11-16 08:00",
   "2026-11-16 14:00",
   "2026-11-16 20:00",
   "2026-11-17 08:00",
@@ -615,6 +614,7 @@
   "2026-11-24 20:00",
   "2026-11-25 08:00",
   "2026-11-25 14:00",
-  "2026-11-25 20:00"
+  "2026-11-25 20:00",
+  "2026-11-26 08:00"
  ]
 }
