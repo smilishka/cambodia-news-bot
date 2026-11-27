@@ -1,11 +1,5 @@
 {
  "posted": {
-  "https://phnompenhpost.com/national/pair-of-adult-moon-bears-rescued-from-koh-kong-hotel": "2026-11-17T20:00+07:00",
-  "https://t.me/thephnompenhpost/34858": "2026-11-17T20:00+07:00",
-  "https://t.me/khmertimesbreakingnews/99213": "2026-11-17T20:00+07:00",
-  "https://khmertimeskh.com?p=2058771": "2026-11-17T20:00+07:00",
-  "https://t.me/khmertimesbreakingnews/99182": "2026-11-17T20:00+07:00",
-  "https://khmertimeskh.com/502058113/joint-study-kicks-off-for-800-mw-koh-kong-power-project": "2026-11-17T20:00+07:00",
   "https://phnompenhpost.com/national/indonesia-urges-businesses-in-cambodia-to-court-local-customers-after-closures": "2026-11-18T08:00+07:00",
   "https://t.me/thephnompenhpost/34843": "2026-11-18T08:00+07:00",
   "https://t.me/khmertimesbreakingnews/99217": "2026-11-18T08:00+07:00",
@@ -179,24 +173,15 @@
   "https://khmertimeskh.com?p=2062802": "2026-11-27T14:00+07:00",
   "https://t.me/khmertimesbreakingnews/99617": "2026-11-27T14:00+07:00",
   "https://khmertimeskh.com?p=2062739": "2026-11-27T14:00+07:00",
-  "https://t.me/khmertimesbreakingnews/99614": "2026-11-27T14:00+07:00"
+  "https://t.me/khmertimesbreakingnews/99614": "2026-11-27T14:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99624": "2026-11-27T20:00+07:00",
+  "https://khmertimeskh.com?p=2062885": "2026-11-27T20:00+07:00",
+  "https://khmertimeskh.com?p=2062744": "2026-11-27T20:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99606": "2026-11-27T20:00+07:00",
+  "https://t.me/thephnompenhpost/35019": "2026-11-27T20:00+07:00",
+  "https://phnompenhpost.com/business/butterful-creamorous-brings-its-seoul-born-french-bakery-to-cambodia-with-nourish-and-sips": "2026-11-27T20:00+07:00"
  },
  "recent": [
-  {
-   "src": "Angkor Half Marathon declared smoke-, vape-free as more than 17,000 runners register",
-   "ru": "Грандиозный полумарафон у храмов Ангкора пройдет без сигарет и вейпов",
-   "at": "2026-11-18T20:00+07:00"
-  },
-  {
-   "src": "AI to anchor next phase of Cambodia’s airport expansion",
-   "ru": "Искусственный интеллект полностью изменит работу аэропортов Камбоджи",
-   "at": "2026-11-18T20:00+07:00"
-  },
-  {
-   "src": "Govt injects $100M to protect farmers, steady agri-markets",
-   "ru": "Власти Камбоджи выделяют 100 млн долларов на спасение фермеров и рынка риса",
-   "at": "2026-11-19T08:00+07:00"
-  },
   {
    "src": "Carrefour – Lucky Supermarket partnership highlights deepening Cambodia – France commercial ties",
    "ru": "Французские продукты Carrefour появятся на полках супермаркетов по всей Камбодже",
@@ -581,12 +566,26 @@
    "src": "Mostly sunshine with scattered rain forecasted for Cambodia this weekend",
    "ru": "Солнце или кратковременные дожди: какая погода ждет Камбоджу",
    "at": "2026-11-27T14:00+07:00"
+  },
+  {
+   "src": "Svay Rieng send shockwaves through Asia with J League triumph",
+   "ru": "Камбоджийский клуб сотворил главную сенсацию в азиатском футболе",
+   "at": "2026-11-27T20:00+07:00"
+  },
+  {
+   "src": "Police arrest 59 suspected gang members in 14 cases during Water Festival",
+   "ru": "Масштабные облавы по всей стране: полиция задерживает сотни людей",
+   "at": "2026-11-27T20:00+07:00"
+  },
+  {
+   "src": "Butterful & Creamorous Brings Its Seoul-Born French Bakery to Cambodia with Nourish and Sips",
+   "ru": "Легендарная сеульская пекарня в парижском стиле выходит на рынок",
+   "at": "2026-11-27T20:00+07:00"
   }
  ],
  "pinned_message_id": null,
- "last_run": "2026-11-27T14:00+07:00",
+ "last_run": "2026-11-27T20:00+07:00",
  "slots_done": [
-  "2026-11-17 20:00",
   "2026-11-18 08:00",
   "2026-11-18 14:00",
   "2026-11-18 20:00",
@@ -615,6 +614,7 @@
   "2026-11-26 14:00",
   "2026-11-26 20:00",
   "2026-11-27 08:00",
-  "2026-11-27 14:00"
+  "2026-11-27 14:00",
+  "2026-11-27 20:00"
  ]
 }
