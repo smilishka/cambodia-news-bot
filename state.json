@@ -1,11 +1,5 @@
 {
  "posted": {
-  "https://t.me/khmertimesbreakingnews/99119": "2026-11-17T05:33+07:00",
-  "https://khmertimeskh.com/502057602/cambodia-takes-bakong-global-with-japan-and-rwanda-integration": "2026-11-17T05:33+07:00",
-  "https://t.me/thephnompenhpost/34802": "2026-11-17T05:33+07:00",
-  "https://phnompenhpost.com/business/france-provides-more-than-200m-in-energy-assistance-to-cambodia-lays-out-hydropower-plans": "2026-11-17T05:33+07:00",
-  "https://t.me/thephnompenhpost/34816": "2026-11-17T05:33+07:00",
-  "https://phnompenhpost.com/business/cambodian-securities-exchange-lists-largest-bond-to-date-at-99m": "2026-11-17T05:33+07:00",
   "https://t.me/khmertimesbreakingnews/99163": "2026-11-17T14:00+07:00",
   "https://khmertimeskh.com/502058442/mother-and-2-children-die-in-sihanoukville-blaze": "2026-11-17T14:00+07:00",
   "https://khmertimeskh.com/502058554/bassac-river-bridge-construction-reaches-87-8-completion": "2026-11-17T14:00+07:00",
@@ -179,24 +173,15 @@
   "https://t.me/thephnompenhpost/34996": "2026-11-26T20:00+07:00",
   "https://phnompenhpost.com/national/water-festival-road-toll-hits-27-up-14-from-last-year": "2026-11-26T20:00+07:00",
   "https://phnompenhpost.com/business/us-announces-plans-for-new-tariffs-on-cambodian-goods": "2026-11-26T20:00+07:00",
-  "https://t.me/thephnompenhpost/34995": "2026-11-26T20:00+07:00"
+  "https://t.me/thephnompenhpost/34995": "2026-11-26T20:00+07:00",
+  "https://phnompenhpost.com/national/cambodia-considering-sin-tax-to-sustain-hiv-response-as-foreign-aid-declines": "2026-11-27T08:00+07:00",
+  "https://t.me/thephnompenhpost/35000": "2026-11-27T08:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99585": "2026-11-27T08:00+07:00",
+  "https://khmertimeskh.com?p=2062500": "2026-11-27T08:00+07:00",
+  "https://phnompenhpost.com/lifestyle/familiar-but-also-new-south-korean-indie-darlings-say-sue-me-set-for-cambodian-debut": "2026-11-27T08:00+07:00",
+  "https://t.me/thephnompenhpost/34991": "2026-11-27T08:00+07:00"
  },
  "recent": [
-  {
-   "src": "ABA Bank becomes largest single lender in $182 million green loan for Cambodia’s first energy storage project",
-   "ru": "Крупнейший банк Камбоджи вложился в грандиозный энергетический проект",
-   "at": "2026-11-18T08:00+07:00"
-  },
-  {
-   "src": "Sar Sokha reports more than 2,000 data discrepancies in national police records (VIDEO)",
-   "ru": "В личных делах тысяч камбоджийских полицейских нашли странные ошибки",
-   "at": "2026-11-18T08:00+07:00"
-  },
-  {
-   "src": "Suspects arrested in scam raids; deputy governor’s wife accused of renting to scammers",
-   "ru": "Рейды на скамеров в Бавете и громкое обвинение жены чиновника",
-   "at": "2026-11-18T14:00+07:00"
-  },
   {
    "src": "Phnom Penh’s Walk Street open for 5 days to celebrate Water Festival",
    "ru": "Пешеходную улицу в Пномпене открывают на пять дней ради праздника",
@@ -581,12 +566,26 @@
    "src": "US announces plans for new tariffs on Cambodian goods",
    "ru": "Удар по экспорту: США вводят новые пошлины на товары из Камбоджи",
    "at": "2026-11-26T20:00+07:00"
+  },
+  {
+   "src": "Cambodia considering ‘sin tax’ to sustain HIV response as foreign aid declines",
+   "ru": "В Камбодже могут резко вырасти цены на алкоголь и сигареты из-за нового налога",
+   "at": "2026-11-27T08:00+07:00"
+  },
+  {
+   "src": "Four Cambodians detained while attempting to cross illegally into Thailand",
+   "ru": "Четверых жителей Сиемреапа задержали при попытке нелегально уйти в Таиланд",
+   "at": "2026-11-27T08:00+07:00"
+  },
+  {
+   "src": "‘Familiar but also New’: South Korean Indie Darlings Say Sue Me Set for Cambodian Debut",
+   "ru": "Известная инди-группа из Южной Кореи впервые выступит с концертом в Камбодже",
+   "at": "2026-11-27T08:00+07:00"
   }
  ],
  "pinned_message_id": null,
- "last_run": "2026-11-26T20:00+07:00",
+ "last_run": "2026-11-27T08:00+07:00",
  "slots_done": [
-  "2026-11-17 08:00",
   "2026-11-17 14:00",
   "2026-11-17 20:00",
   "2026-11-18 08:00",
@@ -615,6 +614,7 @@
   "2026-11-25 20:00",
   "2026-11-26 08:00",
   "2026-11-26 14:00",
-  "2026-11-26 20:00"
+  "2026-11-26 20:00",
+  "2026-11-27 08:00"
  ]
 }
