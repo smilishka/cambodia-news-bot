@@ -1,11 +1,5 @@
 {
  "posted": {
-  "https://khmertimeskh.com/502059225/26-arrested-in-bavet-scam-crackdown": "2026-11-18T20:00+07:00",
-  "https://t.me/khmertimesbreakingnews/99228": "2026-11-18T20:00+07:00",
-  "https://t.me/thephnompenhpost/34887": "2026-11-18T20:00+07:00",
-  "https://phnompenhpost.com/sport/angkor-half-marathon-declared-smoke-vape-free-as-more-than-17000-runners-register": "2026-11-18T20:00+07:00",
-  "https://t.me/khmertimesbreakingnews/99243": "2026-11-18T20:00+07:00",
-  "https://khmertimeskh.com/502058889/ai-to-anchor-next-phase-of-cambodias-airport-expansion": "2026-11-18T20:00+07:00",
   "https://khmertimeskh.com/502059660/govt-injects-100m-to-protect-farmers-steady-agri-markets": "2026-11-19T08:00+07:00",
   "https://t.me/khmertimesbreakingnews/99277": "2026-11-19T08:00+07:00",
   "https://t.me/khmertimesbreakingnews/99275": "2026-11-19T08:00+07:00",
@@ -179,24 +173,15 @@
   "https://t.me/khmertimesbreakingnews/99640": "2026-11-28T14:00+07:00",
   "https://khmertimeskh.com/502063045/cambodia-signs-aviation-deals-with-saudi-arabia-argentina": "2026-11-28T14:00+07:00",
   "https://t.me/khmertimesbreakingnews/99647": "2026-11-28T14:00+07:00",
-  "https://khmertimeskh.com?p=2063077": "2026-11-28T14:00+07:00"
+  "https://khmertimeskh.com?p=2063077": "2026-11-28T14:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99648": "2026-11-28T20:00+07:00",
+  "https://khmertimeskh.com?p=2063082": "2026-11-28T20:00+07:00",
+  "https://t.me/thephnompenhpost/35016": "2026-11-28T20:00+07:00",
+  "https://phnompenhpost.com/national/labour-ministry-warning-recruitment-for-employment-in-africa-illegal": "2026-11-28T20:00+07:00",
+  "https://khmertimeskh.com/502063057/ctb-siem-reap-airport-host-roadshow-for-700-chinese-agents": "2026-11-28T20:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99646": "2026-11-28T20:00+07:00"
  },
  "recent": [
-  {
-   "src": "GDI denies airport officers abused woman barred from travelling to Sri Lanka",
-   "ru": "Скандал в новом аэропорту: иммиграционная служба ответила на обвинения",
-   "at": "2026-11-19T20:00+07:00"
-  },
-  {
-   "src": "GDT collects $3.38 billion tax revenue in first 10 months",
-   "ru": "Миллиарды долларов в казну: налоговая Камбоджи раскрыла данные о доходах",
-   "at": "2026-11-19T20:00+07:00"
-  },
-  {
-   "src": "Visa, NBC and ACLEDA bring Google Pay to Bakong Virtual Visa cards",
-   "ru": "Бесконтактные платежи стали проще: в Камбодже запустили Google Pay для Bakong",
-   "at": "2026-11-20T08:00+07:00"
-  },
   {
    "src": "MoE issues measures to mitigate potential El Niño impacts",
    "ru": "Власти Камбоджи предупреждают о рисках и готовят меры из-за феномена Эль-Ниньо",
@@ -581,12 +566,26 @@
    "src": "Coastal rain forecast for Cambodia",
    "ru": "Синоптики предупреждают о дождях с грозами и сильным ветром",
    "at": "2026-11-28T14:00+07:00"
+  },
+  {
+   "src": "Officials stop lorry carrying 24,000 smuggled chickens",
+   "ru": "В провинции Прейвэнг перехватили грузовик с десятками тысяч нелегальных кур",
+   "at": "2026-11-28T20:00+07:00"
+  },
+  {
+   "src": "Labour ministry warning: Recruitment for employment in Africa illegal",
+   "ru": "Минтруд Камбоджи объявил вне закона любые вакансии и вербовку на работу в Африке",
+   "at": "2026-11-28T20:00+07:00"
+  },
+  {
+   "src": "CTB, Siem Reap airport host roadshow for 700 Chinese agents",
+   "ru": "Камбоджа борется за китайских туристов и проводит встречи с сотнями турагентов",
+   "at": "2026-11-28T20:00+07:00"
   }
  ],
  "pinned_message_id": null,
- "last_run": "2026-11-28T14:00+07:00",
+ "last_run": "2026-11-28T20:00+07:00",
  "slots_done": [
-  "2026-11-18 20:00",
   "2026-11-19 08:00",
   "2026-11-19 14:00",
   "2026-11-19 20:00",
@@ -615,6 +614,7 @@
   "2026-11-27 14:00",
   "2026-11-27 20:00",
   "2026-11-28 08:00",
-  "2026-11-28 14:00"
+  "2026-11-28 14:00",
+  "2026-11-28 20:00"
  ]
 }
