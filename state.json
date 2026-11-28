@@ -1,11 +1,5 @@
 {
  "posted": {
-  "https://phnompenhpost.com/national/indonesia-urges-businesses-in-cambodia-to-court-local-customers-after-closures": "2026-11-18T08:00+07:00",
-  "https://t.me/thephnompenhpost/34843": "2026-11-18T08:00+07:00",
-  "https://t.me/khmertimesbreakingnews/99217": "2026-11-18T08:00+07:00",
-  "https://khmertimeskh.com/502058947/aba-bank-becomes-largest-single-lender-in-182-million-green-loan-for-cambodias-first-energy-storage-project": "2026-11-18T08:00+07:00",
-  "https://t.me/khmertimesbreakingnews/99214": "2026-11-18T08:00+07:00",
-  "https://khmertimeskh.com?p=2058791": "2026-11-18T08:00+07:00",
   "https://t.me/thephnompenhpost/34880": "2026-11-18T14:00+07:00",
   "https://phnompenhpost.com/national/suspects-arrested-in-scam-raids-deputy-governors-wife-accused-of-renting-to-scammers": "2026-11-18T14:00+07:00",
   "https://t.me/khmertimesbreakingnews/99230": "2026-11-18T14:00+07:00",
@@ -179,24 +173,15 @@
   "https://khmertimeskh.com?p=2062744": "2026-11-27T20:00+07:00",
   "https://t.me/khmertimesbreakingnews/99606": "2026-11-27T20:00+07:00",
   "https://t.me/thephnompenhpost/35019": "2026-11-27T20:00+07:00",
-  "https://phnompenhpost.com/business/butterful-creamorous-brings-its-seoul-born-french-bakery-to-cambodia-with-nourish-and-sips": "2026-11-27T20:00+07:00"
+  "https://phnompenhpost.com/business/butterful-creamorous-brings-its-seoul-born-french-bakery-to-cambodia-with-nourish-and-sips": "2026-11-27T20:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99612": "2026-11-28T08:00+07:00",
+  "https://khmertimeskh.com?p=2062770": "2026-11-28T08:00+07:00",
+  "https://t.me/thephnompenhpost/35005": "2026-11-28T08:00+07:00",
+  "https://phnompenhpost.com/national/progress-in-unclos-talks-cambodia-thailand-agree-to-maritime-site-visits": "2026-11-28T08:00+07:00",
+  "https://khmertimeskh.com?p=2062788": "2026-11-28T08:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99615": "2026-11-28T08:00+07:00"
  },
  "recent": [
-  {
-   "src": "Carrefour – Lucky Supermarket partnership highlights deepening Cambodia – France commercial ties",
-   "ru": "Французские продукты Carrefour появятся на полках супермаркетов по всей Камбодже",
-   "at": "2026-11-19T08:00+07:00"
-  },
-  {
-   "src": "Contraband booze seized at smuggler’s residence",
-   "ru": "Полиция накрыла склад контрабандного алкоголя прямо у границы с Таиландом",
-   "at": "2026-11-19T08:00+07:00"
-  },
-  {
-   "src": "6 foreigners arrested for ‘impersonating Chinese soldiers’",
-   "ru": "Рейд в Пномпене: шестеро китайцев выдавали себя за военных ради скама",
-   "at": "2026-11-19T14:00+07:00"
-  },
   {
    "src": "72 Indonesian nationals deported over illegal stay, work and online scam activities",
    "ru": "Массовая депортация: из Камбоджи выслали 72 гражданина Индонезии",
@@ -581,12 +566,26 @@
    "src": "Butterful & Creamorous Brings Its Seoul-Born French Bakery to Cambodia with Nourish and Sips",
    "ru": "Легендарная сеульская пекарня в парижском стиле выходит на рынок",
    "at": "2026-11-27T20:00+07:00"
+  },
+  {
+   "src": "Cambodia warns against illegal recruitment for jobs in Africa, citing human trafficking risks",
+   "ru": "Минтруда Камбоджи экстренно предупреждает об опасных вакансиях в Африке",
+   "at": "2026-11-28T08:00+07:00"
+  },
+  {
+   "src": "Progress in UNCLOS talks: Cambodia, Thailand agree to maritime site visits",
+   "ru": "Камбоджа и Таиланд сделали шаг к окончательному разделу морских границ",
+   "at": "2026-11-28T08:00+07:00"
+  },
+  {
+   "src": "Brother and sister drown in Phnom Penh",
+   "ru": "Ужасная трагедия в столице: брат и сестра утонули в Пномпене в четверг вечером",
+   "at": "2026-11-28T08:00+07:00"
   }
  ],
  "pinned_message_id": null,
- "last_run": "2026-11-27T20:00+07:00",
+ "last_run": "2026-11-28T08:00+07:00",
  "slots_done": [
-  "2026-11-18 08:00",
   "2026-11-18 14:00",
   "2026-11-18 20:00",
   "2026-11-19 08:00",
@@ -615,6 +614,7 @@
   "2026-11-26 20:00",
   "2026-11-27 08:00",
   "2026-11-27 14:00",
-  "2026-11-27 20:00"
+  "2026-11-27 20:00",
+  "2026-11-28 08:00"
  ]
 }
