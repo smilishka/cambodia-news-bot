@@ -1,11 +1,5 @@
 {
  "posted": {
-  "https://t.me/thephnompenhpost/34880": "2026-11-18T14:00+07:00",
-  "https://phnompenhpost.com/national/suspects-arrested-in-scam-raids-deputy-governors-wife-accused-of-renting-to-scammers": "2026-11-18T14:00+07:00",
-  "https://t.me/khmertimesbreakingnews/99230": "2026-11-18T14:00+07:00",
-  "https://khmertimeskh.com/502059255/phnom-penhs-walk-street-open-for-5-days-to-celebrate-water-festival": "2026-11-18T14:00+07:00",
-  "https://t.me/khmertimesbreakingnews/99241": "2026-11-18T14:00+07:00",
-  "https://khmertimeskh.com/502058932/5g-reaches-34-5-of-cambodians-as-subsea-cable-nears-2027-launch": "2026-11-18T14:00+07:00",
   "https://khmertimeskh.com/502059225/26-arrested-in-bavet-scam-crackdown": "2026-11-18T20:00+07:00",
   "https://t.me/khmertimesbreakingnews/99228": "2026-11-18T20:00+07:00",
   "https://t.me/thephnompenhpost/34887": "2026-11-18T20:00+07:00",
@@ -179,24 +173,15 @@
   "https://t.me/thephnompenhpost/35005": "2026-11-28T08:00+07:00",
   "https://phnompenhpost.com/national/progress-in-unclos-talks-cambodia-thailand-agree-to-maritime-site-visits": "2026-11-28T08:00+07:00",
   "https://khmertimeskh.com?p=2062788": "2026-11-28T08:00+07:00",
-  "https://t.me/khmertimesbreakingnews/99615": "2026-11-28T08:00+07:00"
+  "https://t.me/khmertimesbreakingnews/99615": "2026-11-28T08:00+07:00",
+  "https://khmertimeskh.com?p=2063092": "2026-11-28T14:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99650": "2026-11-28T14:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99640": "2026-11-28T14:00+07:00",
+  "https://khmertimeskh.com/502063045/cambodia-signs-aviation-deals-with-saudi-arabia-argentina": "2026-11-28T14:00+07:00",
+  "https://t.me/khmertimesbreakingnews/99647": "2026-11-28T14:00+07:00",
+  "https://khmertimeskh.com?p=2063077": "2026-11-28T14:00+07:00"
  },
  "recent": [
-  {
-   "src": "72 Indonesian nationals deported over illegal stay, work and online scam activities",
-   "ru": "Массовая депортация: из Камбоджи выслали 72 гражданина Индонезии",
-   "at": "2026-11-19T14:00+07:00"
-  },
-  {
-   "src": "Chaktomuk Walk Street to open for five days during Water Festival",
-   "ru": "Пять дней праздника: пешеходная улица в Пномпене откроется к Водному фестивалю",
-   "at": "2026-11-19T14:00+07:00"
-  },
-  {
-   "src": "78 arrested in Tonle Sap illegal fishing crackdown",
-   "ru": "Массовые облавы на Тонлесапе: силовики задержали десятки людей с поличным",
-   "at": "2026-11-19T20:00+07:00"
-  },
   {
    "src": "GDI denies airport officers abused woman barred from travelling to Sri Lanka",
    "ru": "Скандал в новом аэропорту: иммиграционная служба ответила на обвинения",
@@ -581,12 +566,26 @@
    "src": "Brother and sister drown in Phnom Penh",
    "ru": "Ужасная трагедия в столице: брат и сестра утонули в Пномпене в четверг вечером",
    "at": "2026-11-28T08:00+07:00"
+  },
+  {
+   "src": "Cambodia deports 77 Indonesians over online scam and immigration offences",
+   "ru": "Массовая депортация иностранцев из Камбоджи: выслано сразу 77 человек",
+   "at": "2026-11-28T14:00+07:00"
+  },
+  {
+   "src": "Cambodia signs aviation deals with Saudi Arabia, Argentina",
+   "ru": "Камбоджа открывает новые авианаправления и расширяет полётную карту",
+   "at": "2026-11-28T14:00+07:00"
+  },
+  {
+   "src": "Coastal rain forecast for Cambodia",
+   "ru": "Синоптики предупреждают о дождях с грозами и сильным ветром",
+   "at": "2026-11-28T14:00+07:00"
   }
  ],
  "pinned_message_id": null,
- "last_run": "2026-11-28T08:00+07:00",
+ "last_run": "2026-11-28T14:00+07:00",
  "slots_done": [
-  "2026-11-18 14:00",
   "2026-11-18 20:00",
   "2026-11-19 08:00",
   "2026-11-19 14:00",
@@ -615,6 +614,7 @@
   "2026-11-27 08:00",
   "2026-11-27 14:00",
   "2026-11-27 20:00",
-  "2026-11-28 08:00"
+  "2026-11-28 08:00",
+  "2026-11-28 14:00"
  ]
 }
